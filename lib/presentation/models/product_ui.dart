@@ -13,7 +13,7 @@ class ProductUi {
 
   static ProductUi fromModel(Product product) {
     return ProductUi(name: product.name,
-        price: '${product.defaultVariation.price}',
+        price: 'EGP ${product.defaultVariation.price}',
         id: product.id,
         imageUrl: product.defaultVariation.images.first,
         isFavorite: false ,

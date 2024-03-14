@@ -15,7 +15,6 @@ class ProductsCubit extends Cubit<ProductsState> {
   }
 
   Future fetchProducts() async {
-    await Future.delayed(const Duration(seconds: 3));
     await _productsRepository.getProducts(page : state.currentPage).then((value) {
       if(state.currentPage ==1){
         emit(ProductsState(
@@ -26,7 +25,7 @@ class ProductsCubit extends Cubit<ProductsState> {
       }else{
         emit(ProductsState(
             products: state.products!+(value.data?.map((e) => ProductUi.fromModel(e)).toList() ?? []),
-            currentPage:  value.errorStatus==null ? state.currentPage+1 : state.currentPage),
+            currentPage:  value.errorStatus==null ?( (value.data?.isEmpty ==true) ? state.currentPage : state.currentPage+1 ): state.currentPage),
         );
       }
     });
