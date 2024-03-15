@@ -4,9 +4,7 @@ import 'package:slash/data/datasources/remote/models/product_varaiation.dart';
 import 'package:slash/domain/models/product.dart';
 import 'package:slash/domain/models/product_variation.dart';
 
-
 class ProductData {
-
   int? id;
   String? name;
   String? type;
@@ -59,7 +57,7 @@ class ProductData {
     productRating = json['product_rating']?.toInt();
     estimatedDaysPreparing = json['estimated_days_preparing']?.toInt();
     brands =
-    (json['Brands'] != null) ? BrandDto?.fromJson(json['Brands']) : null;
+        (json['Brands'] != null) ? BrandDto?.fromJson(json['Brands']) : null;
     if (json['ProductVariations'] != null) {
       final v = json['ProductVariations'];
       final arr0 = <ProductVariationsDto>[];
@@ -68,8 +66,9 @@ class ProductData {
       });
       productVariations = arr0;
     }
-    subCategories = (json['SubCategories'] != null) ? SubCategories.fromJson(
-        json['SubCategories']) : null;
+    subCategories = (json['SubCategories'] != null)
+        ? SubCategories.fromJson(json['SubCategories'])
+        : null;
     SizeChart = json['SizeChart']?.toString();
     notApprovedVariants = json['notApprovedVariants']?.toInt();
   }
@@ -108,19 +107,24 @@ class ProductData {
   }
 
   Product toModel() {
-    final defaultVariationDto = productVariations!.firstWhere((
-        element) => element?.isDefault == true);
-    final defaultVariation = ProductVariation(id: defaultVariationDto?.id ??-1,
+    final defaultVariationDto =
+        productVariations!.firstWhere((element) => element?.isDefault == true);
+    final defaultVariation = ProductVariation(
+        id: defaultVariationDto?.id ?? -1,
         productId: defaultVariationDto?.productId ?? -1,
         price: defaultVariationDto?.price?.toDouble() ?? 0.0,
         quantity: defaultVariationDto?.quantity ?? 0,
         isDefault: true,
-        images: defaultVariationDto?.productVarientImages?.map((e) => e?.imagePath ?? '').toList() ??[]);
-    return Product(id: id ?? -1,
+        inStock: defaultVariationDto?.quantity != 0,
+        images: defaultVariationDto?.productVarientImages
+                ?.map((e) => e?.imagePath ?? '')
+                .toList() ??
+            []);
+    return Product(
+        id: id ?? -1,
         name: name ?? '',
         brandLogo: brands?.brandLogoImagePath ?? '',
         brandId: brandId ?? -1,
-        defaultVariation:defaultVariation
-    );
+        defaultVariation: defaultVariation);
   }
 }

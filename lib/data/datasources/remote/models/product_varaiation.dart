@@ -15,7 +15,7 @@ class ProductVariationsDto {
   int? productVariationStatusId;
   String? acceptedBy;
   ProductVariationsProductStatusLookups? productStatusLookups;
-  List<ProductVariationsProductVarientImages?>? productVarientImages;
+  List<ProductVarientImages?>? productVarientImages;
 
   ProductVariationsDto({
     this.id,
@@ -47,9 +47,9 @@ class ProductVariationsDto {
     productStatusLookups = (json['ProductStatusLookups'] != null) ? ProductVariationsProductStatusLookups.fromJson(json['ProductStatusLookups']) : null;
     if (json['ProductVarientImages'] != null) {
       final v = json['ProductVarientImages'];
-      final arr0 = <ProductVariationsProductVarientImages>[];
+      final arr0 = <ProductVarientImages>[];
       v.forEach((v) {
-        arr0.add(ProductVariationsProductVarientImages.fromJson(v));
+        arr0.add(ProductVarientImages.fromJson(v));
       });
       productVarientImages = arr0;
     }

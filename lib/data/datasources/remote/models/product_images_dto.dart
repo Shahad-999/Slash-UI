@@ -1,33 +1,31 @@
-class ProductVariationsProductVarientImages {
 
+class ProductVarientImages {
+  final int? id;
+  final String? imagePath;
+  final int? productVarientId;
+  final String? createdAt;
+  final String? updatedAt;
 
-  int? id;
-  String? imagePath;
-  int? productVarientId;
-  String? createdAt;
-  String? updatedAt;
-
-  ProductVariationsProductVarientImages({
+  ProductVarientImages({
     this.id,
     this.imagePath,
     this.productVarientId,
     this.createdAt,
     this.updatedAt,
   });
-  ProductVariationsProductVarientImages.fromJson(Map<String, dynamic> json) {
-    id = json['id']?.toInt();
-    imagePath = json['image_path']?.toString();
-    productVarientId = json['product_varient_id']?.toInt();
-    createdAt = json['createdAt']?.toString();
-    updatedAt = json['updatedAt']?.toString();
-  }
-  Map<String, dynamic> toJson() {
-    final data = <String, dynamic>{};
-    data['id'] = id;
-    data['image_path'] = imagePath;
-    data['product_varient_id'] = productVarientId;
-    data['createdAt'] = createdAt;
-    data['updatedAt'] = updatedAt;
-    return data;
-  }
+
+  ProductVarientImages.fromJson(Map<String, dynamic> json)
+      : id = json['id'] as int?,
+        imagePath = json['image_path'] as String?,
+        productVarientId = json['product_varient_id'] as int?,
+        createdAt = json['createdAt'] as String?,
+        updatedAt = json['updatedAt'] as String?;
+
+  Map<String, dynamic> toJson() => {
+    'id' : id,
+    'image_path' : imagePath,
+    'product_varient_id' : productVarientId,
+    'createdAt' : createdAt,
+    'updatedAt' : updatedAt
+  };
 }
