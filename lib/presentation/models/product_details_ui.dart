@@ -1,7 +1,7 @@
 import 'package:slash/domain/models/product_property.dart';
 import 'package:slash/domain/models/product_variation.dart';
 
-class ProductDetails {
+class ProductDetailsUi {
   final int id;
   final String name;
   final int brandId;
@@ -10,7 +10,7 @@ class ProductDetails {
   final List<ProductVariation> variations;
   final List<ProductProperty> availableProperties;
 
-  ProductDetails(
+  ProductDetailsUi(
       {required this.id,
       required this.name,
       required this.brandId,

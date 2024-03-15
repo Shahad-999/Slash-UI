@@ -32,8 +32,7 @@ class ProductDetailsResponseDto {
         brandName: data?.brandName ?? '',
         variations: data?.variations?.map((e) => e.toModel()).toList() ?? [],
         availableProperties: data?.avaiableProperties
-                ?.map((e) => e.property)
-                .whereType<String>()
+                ?.map((e) => e.toModel())
                 .toList() ??
             []);
   }
