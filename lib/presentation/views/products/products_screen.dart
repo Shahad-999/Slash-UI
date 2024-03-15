@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:slash/presentation/controllers/products_cubit.dart';
-import 'package:slash/presentation/screens/products/widgets/products_body.dart';
+import 'package:slash/presentation/views/products/widgets/products_body.dart';
 import 'package:slash/utils/ex.dart';
 
 class ProductsScreen extends StatelessWidget {

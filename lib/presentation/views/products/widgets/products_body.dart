@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:slash/presentation/controllers/products_cubit.dart';
 import 'package:slash/presentation/models/product_ui.dart';
-import 'package:slash/presentation/screens/products/widgets/product.dart';
+import 'package:slash/presentation/views/products/widgets/product.dart';
 
 class ProductsBody extends StatefulWidget {
   const ProductsBody({super.key, required this.products});
