@@ -1,5 +1,6 @@
+import 'package:slash/domain/models/product_details.dart';
 import 'package:slash/domain/models/product_property.dart';
-import 'package:slash/domain/models/product_variation.dart';
+import 'package:slash/presentation/models/product_variation_ui.dart';
 
 class ProductDetailsUi {
   final int id;
@@ -7,7 +8,7 @@ class ProductDetailsUi {
   final int brandId;
   final String brandLogo;
   final String brandName;
-  final List<ProductVariation> variations;
+  final List<ProductVariationUi> variations;
   final List<ProductProperty> availableProperties;
 
   ProductDetailsUi(
@@ -18,4 +19,17 @@ class ProductDetailsUi {
       required this.brandName,
       required this.variations,
       required this.availableProperties});
+
+  static ProductDetailsUi fromModel(ProductDetails product) {
+    return ProductDetailsUi(
+        id: product.id,
+        name: product.name,
+        brandId: product.brandId,
+        brandLogo: product.brandLogo,
+        brandName: product.brandName,
+        variations: product.variations
+            .map((e) => ProductVariationUi.fromModel(e))
+            .toList(),
+            availableProperties: product.availableProperties);
+  }
 }
