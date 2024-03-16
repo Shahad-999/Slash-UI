@@ -23,7 +23,7 @@ class AvailablePropertiesDto {
     return ProductProperty(
         property: property ?? '',
         propertyType: property.toString().toLowerCase().toPropertyType(),
-        values: values?.map((e) => e.toModel()).toList() ?? []);
+        values: values?.toSet().map((e) => e.toModel()).toList() ?? []);
   }
 }
 
@@ -41,6 +41,14 @@ class ValuesDto {
         id = json['id'] as int?;
 
   Map<String, dynamic> toJson() => {'value': value, 'id': id};
+
+  @override
+  bool operator ==(Object other) {
+    return other is ValuesDto && other.value == value;
+
+  }
+  @override
+  int get hashCode => value.hashCode;
 
   Values toModel() {
     return Values(value: value ?? '', id: id ?? -1);

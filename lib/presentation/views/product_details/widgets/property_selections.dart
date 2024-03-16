@@ -42,22 +42,26 @@ class PropertySelection extends StatelessWidget {
               itemBuilder: (context, index) {
                 return Padding(
                   padding: const EdgeInsets.symmetric(horizontal: 8.0),
-                  child: Container(
-                    padding: EdgeInsets.all(8),
-                    height: 32,
-                    decoration: BoxDecoration(
-                        color: selectedProperties
-                            .firstWhere((element) =>
-                        element.property == 'Size')
-                            .value ==
-                            (property.values[index].value)? context.getColors().primary: Theme.of(context).cardColor,
-                        borderRadius: BorderRadius.circular(4)),
-                    child: Center(
-                      child: Text(
-                        property.values[index].value,
-                        style: TextStyle(
-                            color: context.getColors().onPrimary,
-                            fontWeight: FontWeight.w600),
+                  child: InkWell(
+                    onTap: ()=> _onSelectColor(context,property.values[index].id),
+                    splashColor: Colors.transparent,
+                    child: Container(
+                      padding: EdgeInsets.all(8),
+                      height: 32,
+                      decoration: BoxDecoration(
+                          color: selectedProperties
+                              .firstWhere((element) =>
+                          element.property == 'Size')
+                              .value ==
+                              (property.values[index].value)? context.getColors().primary: Theme.of(context).cardColor,
+                          borderRadius: BorderRadius.circular(4)),
+                      child: Center(
+                        child: Text(
+                          property.values[index].value,
+                          style: TextStyle(
+                              color: context.getColors().onPrimary,
+                              fontWeight: FontWeight.w600),
+                        ),
                       ),
                     ),
                   ),
@@ -76,22 +80,26 @@ class PropertySelection extends StatelessWidget {
               itemBuilder: (context, index) {
                 return Padding(
                   padding: const EdgeInsets.symmetric(horizontal: 8.0),
-                  child: Container(
-                    padding: EdgeInsets.all(8),
-                    height: 32,
-                    decoration: BoxDecoration(
-                        color: selectedProperties
-                            .firstWhere((element) =>
-                        element.property == 'Materials')
-                            .value ==
-                            (property.values[index].value)? context.getColors().primary: Theme.of(context).cardColor,
-                        borderRadius: BorderRadius.circular(4)),
-                    child: Center(
-                      child: Text(
-                        property.values[index].value,
-                        style: TextStyle(
-                            color: context.getColors().onPrimary ,
-                            fontWeight: FontWeight.w600),
+                  child: InkWell(
+                    splashColor: Colors.transparent,
+                    onTap: ()=> _onSelectColor(context,property.values[index].id),
+                    child: Container(
+                      padding: const EdgeInsets.all(8),
+                      height: 32,
+                      decoration: BoxDecoration(
+                          color: selectedProperties
+                              .firstWhere((element) =>
+                          element.property == 'Materials')
+                              .value ==
+                              (property.values[index].value)? context.getColors().primary: Theme.of(context).cardColor,
+                          borderRadius: BorderRadius.circular(4)),
+                      child: Center(
+                        child: Text(
+                          property.values[index].value,
+                          style: TextStyle(
+                              color: context.getColors().onPrimary ,
+                              fontWeight: FontWeight.w600),
+                        ),
                       ),
                     ),
                   ),
@@ -111,6 +119,7 @@ class PropertySelection extends StatelessWidget {
                 return Padding(
                   padding: const EdgeInsets.symmetric(horizontal: 8.0),
                   child: InkWell(
+                    splashColor: Colors.transparent,
                     onTap: ()=> _onSelectColor(context,property.values[index].id),
                     child: Container(
                       height: 32,
@@ -124,7 +133,7 @@ class PropertySelection extends StatelessWidget {
                                 .value ==
                                 (property.values[index].value)
                                 ? Colors.white
-                                : context.getColors().primary.withAlpha(20),
+                                : context.getColors().primary.withAlpha(90),
                             width: 2),
                         color: Color(int.parse(property.values[index].value.replaceAll(RegExp(r'[()#]'), '').substring(0), radix: 16) + 0xFF000000)
                       ),
