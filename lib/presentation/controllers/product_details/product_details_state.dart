@@ -4,7 +4,7 @@ class ProductDetailsState {
   final bool isLoading;
   final bool isError;
   final ProductDetailsUi? product;
-  final ProductVariationUi? currentVariation;
+  final ProductDetailsVariationUi? currentVariation;
 
   ProductDetailsState({this.isLoading = false, this.isError = false, this.product,this.currentVariation});
 }

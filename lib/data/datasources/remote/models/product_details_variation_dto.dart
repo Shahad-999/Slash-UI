@@ -1,5 +1,5 @@
 import 'package:slash/data/datasources/remote/models/product_images_dto.dart';
-import 'package:slash/domain/models/product_variation.dart';
+import 'package:slash/domain/models/product_details_variation.dart';
 
 class ProductDetailsVariationDto {
   final int? id;
@@ -7,7 +7,7 @@ class ProductDetailsVariationDto {
   final int? quantity;
   final bool? inStock;
   final List<ProductVarientImages>? productVarientImages;
-  final List<ProductPropertiesValues>? productPropertiesValues;
+  final List<ProductPropertiesValuesDto>? productPropertiesValues;
   final String? productStatus;
   final bool? isDefault;
   final int? productVariationStatusId;
@@ -34,7 +34,7 @@ class ProductDetailsVariationDto {
             ProductVarientImages.fromJson(e as Map<String, dynamic>)).toList(),
         productPropertiesValues = (json['productPropertiesValues'] as List?)
             ?.map((dynamic e) =>
-            ProductPropertiesValues.fromJson(e as Map<String, dynamic>))
+            ProductPropertiesValuesDto.fromJson(e as Map<String, dynamic>))
             .toList(),
         productStatus = json['productStatus'] as String?,
         isDefault = json['isDefault'] as bool?,
@@ -55,28 +55,29 @@ class ProductDetailsVariationDto {
         'product_variation_status_id': productVariationStatusId
       };
 
-  ProductVariation toModel() {
-    return ProductVariation(id: id ?? -1,
-        productId: -1,
+  ProductDetailsVariation toModel() {
+    return ProductDetailsVariation(id: id ?? -1,
         price: price?.toDouble() ?? 0.0,
         quantity: quantity ?? 0,
         isDefault: isDefault ?? true,
         images: productVarientImages?.map((e) => e.imagePath).whereType<String>().toList() ?? [],
-        inStock: inStock ?? true
+        inStock: inStock ?? true,
+      productPropertiesValues: productPropertiesValues?.map((e) => e.toModel()).whereType<ProductPropertiesValues>().toList() ?? []
     );
   }
+
 }
 
-class ProductPropertiesValues {
+class ProductPropertiesValuesDto {
   final String? value;
   final String? property;
 
-  ProductPropertiesValues({
+  ProductPropertiesValuesDto({
     this.value,
     this.property,
   });
 
-  ProductPropertiesValues.fromJson(Map<String, dynamic> json)
+  ProductPropertiesValuesDto.fromJson(Map<String, dynamic> json)
       : value = json['value'] as String?,
         property = json['property'] as String?;
 
@@ -85,4 +86,12 @@ class ProductPropertiesValues {
         'value': value,
         'property': property
       };
+
+  ProductPropertiesValues? toModel(){
+    if(value!=null&&property!=null){
+      return ProductPropertiesValues(value: value!, property: property!);
+    }else{
+      return null;
+    }
+  }
 }

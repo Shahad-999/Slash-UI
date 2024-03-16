@@ -1,6 +1,6 @@
 import 'package:slash/data/datasources/remote/models/available_property.dart';
 import 'package:slash/data/datasources/remote/models/count_dto.dart';
-import 'package:slash/data/datasources/remote/models/product_details_variation.dart';
+import 'package:slash/data/datasources/remote/models/product_details_variation_dto.dart';
 
 class ProductDetailsDataDto {
   final int? id;

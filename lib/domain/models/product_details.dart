@@ -1,5 +1,5 @@
+import 'package:slash/domain/models/product_details_variation.dart';
 import 'package:slash/domain/models/product_property.dart';
-import 'package:slash/domain/models/product_variation.dart';
 
 class ProductDetails {
   final int id;
@@ -7,7 +7,7 @@ class ProductDetails {
   final int brandId;
   final String brandLogo;
   final String brandName;
-  final List<ProductVariation> variations;
+  final List<ProductDetailsVariation> variations;
   final List<ProductProperty> availableProperties;
 
   ProductDetails(

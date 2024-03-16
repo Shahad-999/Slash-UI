@@ -1,20 +1,30 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:slash/presentation/models/product_details_ui.dart';
+import 'package:slash/presentation/models/product_details_variation_ui.dart';
 import 'package:slash/presentation/models/product_variation_ui.dart';
 import 'package:slash/presentation/views/product_details/widgets/images.dart';
+import 'package:slash/presentation/views/product_details/widgets/product_data.dart';
+import 'package:slash/utils/ex.dart';
 
 class ProductDetailsBody extends StatelessWidget {
-  const ProductDetailsBody({super.key, required this.currentVariation, required this.details});
-  final ProductVariationUi currentVariation;
+  const ProductDetailsBody(
+      {super.key, required this.currentVariation, required this.details});
+
+  final ProductDetailsVariationUi currentVariation;
   final ProductDetailsUi details;
 
   @override
   Widget build(BuildContext context) {
-    print(currentVariation);
-    print(details);
     return ListView(
-      children:  [
-        Images(images: currentVariation.images)
+      children: [
+        Images(images: currentVariation.images),
+        const SizedBox(height: 24,),
+        ProductData(
+          details: details,
+          price: currentVariation.price,
+          selectedProperties : currentVariation.productPropertiesValues
+        )
       ],
     );
   }

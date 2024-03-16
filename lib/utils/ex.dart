@@ -10,7 +10,7 @@ extension ContextExtension on BuildContext{
 extension StringEx on String?{
   PropertyType toPropertyType(){
     switch(this){
-      case 'material' : return PropertyType.material;
+      case 'materials' : return PropertyType.material;
       case 'color' : return PropertyType.color;
       case 'size' : return PropertyType.size;
       default : return PropertyType.unKnown;

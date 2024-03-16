@@ -1,4 +1,3 @@
-
 import 'package:slash/domain/models/product_property.dart';
 import 'package:slash/utils/ex.dart';
 
@@ -20,8 +19,11 @@ class AvailablePropertiesDto {
   Map<String, dynamic> toJson() =>
       {'property': property, 'values': values?.map((e) => e.toJson()).toList()};
 
-  ProductProperty toModel(){
-    return ProductProperty(property: property ?? '',propertyType: property.toPropertyType(), values: values?.map((e) => e.toModel()).toList() ?? []);
+  ProductProperty toModel() {
+    return ProductProperty(
+        property: property ?? '',
+        propertyType: property.toString().toLowerCase().toPropertyType(),
+        values: values?.map((e) => e.toModel()).toList() ?? []);
   }
 }
 
@@ -39,7 +41,8 @@ class ValuesDto {
         id = json['id'] as int?;
 
   Map<String, dynamic> toJson() => {'value': value, 'id': id};
-  Values toModel(){
+
+  Values toModel() {
     return Values(value: value ?? '', id: id ?? -1);
   }
 }

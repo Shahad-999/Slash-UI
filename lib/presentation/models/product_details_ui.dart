@@ -1,6 +1,6 @@
 import 'package:slash/domain/models/product_details.dart';
 import 'package:slash/domain/models/product_property.dart';
-import 'package:slash/presentation/models/product_variation_ui.dart';
+import 'package:slash/presentation/models/product_details_variation_ui.dart';
 
 class ProductDetailsUi {
   final int id;
@@ -8,7 +8,7 @@ class ProductDetailsUi {
   final int brandId;
   final String brandLogo;
   final String brandName;
-  final List<ProductVariationUi> variations;
+  final List<ProductDetailsVariationUi> variations;
   final List<ProductProperty> availableProperties;
 
   ProductDetailsUi(
@@ -28,7 +28,7 @@ class ProductDetailsUi {
         brandLogo: product.brandLogo,
         brandName: product.brandName,
         variations: product.variations
-            .map((e) => ProductVariationUi.fromModel(e))
+            .map((e) => ProductDetailsVariationUi.fromModel(e))
             .toList(),
             availableProperties: product.availableProperties);
   }

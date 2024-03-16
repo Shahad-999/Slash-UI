@@ -2,6 +2,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:slash/config/service_locator.dart';
 import 'package:slash/domain/repository.dart';
 import 'package:slash/presentation/models/product_details_ui.dart';
+import 'package:slash/presentation/models/product_details_variation_ui.dart';
 import 'package:slash/presentation/models/product_variation_ui.dart';
 
 part 'product_details_state.dart';
@@ -24,7 +25,7 @@ class ProductDetailsCubit extends Cubit<ProductDetailsState> {
       if (value.data != null) {
         emit(ProductDetailsState(
             product: ProductDetailsUi.fromModel(value.data!),
-            currentVariation: ProductVariationUi.fromModel(value
+            currentVariation: ProductDetailsVariationUi.fromModel(value
                 .data!.variations
                 .firstWhere((element) => element.isDefault))));
       } else {
@@ -32,6 +33,15 @@ class ProductDetailsCubit extends Cubit<ProductDetailsState> {
       }
     });
     return;
+  }
+
+  void selectVariation(int id) {
+    emit(
+        ProductDetailsState(
+            product:state.product,
+            currentVariation:state.product?.variations.firstWhere((element) => element.id ==id)
+        )
+    );
   }
 
 }

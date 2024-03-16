@@ -11,7 +11,7 @@ class Images extends StatefulWidget {
 }
 
 class _ImagesState extends State<Images> {
-  final PageController controller = PageController(viewportFraction: 0.5);
+  final PageController controller = PageController(viewportFraction: 0.8);
   double centerItemIndex = 0.0;
 
   @override
@@ -29,7 +29,7 @@ class _ImagesState extends State<Images> {
     return Column(
       children: [
         SizedBox(
-          height: MediaQuery.sizeOf(context).width / 1.5,
+          height: MediaQuery.sizeOf(context).width,
           child: PageView.builder(
             controller: controller,
             itemCount: widget.images.length,
@@ -41,7 +41,7 @@ class _ImagesState extends State<Images> {
                     flex: 10,
                   ),
                   Expanded(
-                    flex: 90,
+                    flex: 70,
                     child: Material(
                       elevation: getElevation(centerItemIndex, index),
                       child: AspectRatio(
@@ -51,7 +51,7 @@ class _ImagesState extends State<Images> {
                           child: ClipRRect(
                             borderRadius: BorderRadius.circular(24),
                             child: Container(
-                              color: Colors.white,
+                              color: context.getColors().onBackground,
                               child: Image.network(
                                 widget.images[index],
                                 fit: BoxFit.fitHeight,
@@ -112,9 +112,9 @@ class _ImagesState extends State<Images> {
 
   double getAngle(double centerIndex, int index) {
     if ((index - centerIndex).abs() > 0.5) {
-      return ((index - centerIndex) / 5);
+      return ((index - centerIndex) / 2);
     } else if ((index - centerIndex).abs() > 1) {
-      return ((index - centerIndex) / 5);
+      return ((index - centerIndex) / 8);
     }
     return 0.0;
   }
