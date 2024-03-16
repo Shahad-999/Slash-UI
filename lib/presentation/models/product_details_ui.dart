@@ -5,6 +5,7 @@ import 'package:slash/presentation/models/product_details_variation_ui.dart';
 class ProductDetailsUi {
   final int id;
   final String name;
+  final String description;
   final int brandId;
   final String brandLogo;
   final String brandName;
@@ -16,6 +17,7 @@ class ProductDetailsUi {
       required this.name,
       required this.brandId,
       required this.brandLogo,
+      required this.description,
       required this.brandName,
       required this.variations,
       required this.availableProperties});
@@ -27,6 +29,7 @@ class ProductDetailsUi {
         brandId: product.brandId,
         brandLogo: product.brandLogo,
         brandName: product.brandName,
+        description: product.description,
         variations: product.variations
             .map((e) => ProductDetailsVariationUi.fromModel(e))
             .toList(),

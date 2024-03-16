@@ -28,6 +28,7 @@ class ProductDetailsResponseDto {
         id: data?.id ?? -1,
         name: data?.name ?? '',
         brandId: data?.brandId ?? -1,
+        description: data?.description ?? '',
         brandLogo: data?.brandImage ?? '',
         brandName: data?.brandName ?? '',
         variations: data?.variations?.map((e) => e.toModel()).toList() ?? [],

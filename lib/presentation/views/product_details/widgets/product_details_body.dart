@@ -4,6 +4,7 @@ import 'package:slash/presentation/models/product_details_ui.dart';
 import 'package:slash/presentation/models/product_details_variation_ui.dart';
 import 'package:slash/presentation/views/product_details/widgets/images.dart';
 import 'package:slash/presentation/views/product_details/widgets/product_data.dart';
+import 'package:slash/presentation/views/product_details/widgets/product_description.dart';
 
 class ProductDetailsBody extends StatelessWidget {
   const ProductDetailsBody(
@@ -22,7 +23,8 @@ class ProductDetailsBody extends StatelessWidget {
           details: details,
           price: currentVariation.price,
           selectedProperties : currentVariation.productPropertiesValues
-        )
+        ),
+        ProductDescription(description: details.description,),
       ],
     );
   }
