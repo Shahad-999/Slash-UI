@@ -59,7 +59,11 @@ class PropertySelection extends StatelessWidget {
                         child: Text(
                           property.values[index].value,
                           style: TextStyle(
-                              color: context.getColors().onPrimary,
+                              color: selectedProperties
+                              .firstWhere((element) =>
+                            element.property == 'Size')
+                            .value ==
+                            (property.values[index].value)? context.getColors().onPrimary: context.getColors().onBackground,
                               fontWeight: FontWeight.w600),
                         ),
                       ),
@@ -97,7 +101,11 @@ class PropertySelection extends StatelessWidget {
                         child: Text(
                           property.values[index].value,
                           style: TextStyle(
-                              color: context.getColors().onPrimary ,
+                              color: selectedProperties
+                                  .firstWhere((element) =>
+                              element.property == 'Materials')
+                                  .value ==
+                                  (property.values[index].value)? context.getColors().onPrimary: context.getColors().onBackground,
                               fontWeight: FontWeight.w600),
                         ),
                       ),
