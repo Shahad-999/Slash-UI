@@ -3,7 +3,6 @@ import 'package:slash/config/service_locator.dart';
 import 'package:slash/domain/repository.dart';
 import 'package:slash/presentation/models/product_details_ui.dart';
 import 'package:slash/presentation/models/product_details_variation_ui.dart';
-import 'package:slash/presentation/models/product_variation_ui.dart';
 
 part 'product_details_state.dart';
 

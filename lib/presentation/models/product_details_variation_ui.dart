@@ -1,5 +1,4 @@
 import 'package:slash/domain/models/product_details_variation.dart';
-import 'package:slash/domain/models/product_variation.dart';
 
 class ProductDetailsVariationUi {
   final int id;

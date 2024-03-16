@@ -22,7 +22,19 @@ class Product extends StatelessWidget {
                 aspectRatio: 1,
                 child: ClipRRect(
                     borderRadius: BorderRadius.circular(24),
-                    child: Image.network(fit: BoxFit.fill, product.imageUrl)),
+                    child: Container(
+                      color: context.getColors().onBackground,
+                      child: Image.network(fit: BoxFit.fitHeight, product.imageUrl,
+                          errorBuilder: (context, e, t) {
+                            return Center(
+                              child: Text(
+                                '/:',
+                                style:
+                                TextStyle(color: context.getColors().background),
+                              ),
+                            );
+                          }),
+                    )),
               ),
             ),
           ),
@@ -100,11 +112,15 @@ class Product extends StatelessWidget {
   }
 
   _onClickFavorite(BuildContext context) {
-    ScaffoldMessenger.of(context).showSnackBar(const SnackBar(content: Text('Favorite Clicked'),duration: Duration(milliseconds: 500),));
+    ScaffoldMessenger.of(context).showSnackBar(const SnackBar(
+      content: Text('Favorite Clicked'),
+      duration: Duration(milliseconds: 500),
+    ));
   }
 
   _addToCart(BuildContext context) {
-    ScaffoldMessenger.of(context).showSnackBar(const SnackBar(content: Text('Add To Cart Clicked'),duration: Duration(milliseconds: 500)));
-
+    ScaffoldMessenger.of(context).showSnackBar(const SnackBar(
+        content: Text('Add To Cart Clicked'),
+        duration: Duration(milliseconds: 500)));
   }
 }

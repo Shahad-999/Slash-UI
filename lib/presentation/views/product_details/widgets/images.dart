@@ -55,7 +55,16 @@ class _ImagesState extends State<Images> {
                               child: Image.network(
                                 widget.images[index],
                                 fit: BoxFit.fitHeight,
-                              ),
+                                  errorBuilder: (context, e, t) {
+                                    return Center(
+                                      child: Text(
+                                        '/:',
+                                        style:
+                                        TextStyle(color: context.getColors().background),
+                                      ),
+                                    );
+                                  }
+                                  ),
                             ),
                           ),
                         ),
