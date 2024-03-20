@@ -1,16 +1,10 @@
-# slash
+<h1 align="center">Slash App</h1>
+<p align="center">  
+<p align="center">Simple Ecommerce App</p>
+</p>
 
-A new Flutter project.
+![Frame 4-3](https://github.com/Shahad-999/Slash-UI/assets/118618262/c7513be4-50c6-4b6f-8395-d1ae90b66094)
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Video 
+  [Watch On Youtube](https://www.youtube.com/watch?v=cp3vYQ7C_Us)
