@@ -17,6 +17,7 @@ def flutterVersionName = localProperties.getProperty('flutter.versionName')
 if (flutterVersionName == null) {
     flutterVersionName = '1.0'
 }
+def flutterRoot = localProperties.getProperty('flutter.sdk')
 
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
