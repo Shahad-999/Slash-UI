@@ -34,10 +34,25 @@ dependencies:
   cupertino_icons: ^1.0.6
   storybook_flutter: ^0.14.0
 
+
+  riverpod: ^2.5.1
+  freezed: ^2.5.2
+  freezed_annotation: ^2.4.1
+  riverpod_annotation: ^2.3.5
+  flutter_riverpod: ^2.5.1
+  flutter_async_hook: ^0.0.1
+  flutter_hooks: ^0.20.5
+  hooks_riverpod: ^2.5.1
+
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
+  build_runner: ^2.4.9
+  custom_lint: ^0.6.4
+  riverpod_lint: ^2.3.10
+  riverpod_generator: ^2.4.0
   flutter_lints: ^3.0.0
 
 
@@ -76,3 +91,6 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
+analyzer:
+  plugins:
+    - custom_lint

@@ -1,10 +1,10 @@
 import 'package:slash/utils/error_status.dart';
 
-class Result<T> {
+class Response<T> {
   final T? data;
   final ErrorStatus? errorStatus;
 
-  Result({this.data, this.errorStatus})
+  Response({this.data, this.errorStatus})
       : assert(
             (data != null && errorStatus == null) ||
                 (data == null && errorStatus != null),

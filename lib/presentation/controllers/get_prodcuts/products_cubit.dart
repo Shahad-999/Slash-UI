@@ -11,6 +11,7 @@ class ProductsCubit extends Cubit<ProductsState> {
   ProductsCubit()
       : _productsRepository = getIt.get<ProductsRepository>(),
         super(ProductsState(isLoading: true)) {
+    print('jjj');
     fetchProducts();
   }
 
@@ -20,6 +21,7 @@ class ProductsCubit extends Cubit<ProductsState> {
         emit(ProductsState(
             products: value.data?.map((e) => ProductUi.fromModel(e)).toList(),
             isError: value.errorStatus != null,
+
             currentPage:  value.errorStatus==null ? state.currentPage+1 : state.currentPage),
         );
       }else{

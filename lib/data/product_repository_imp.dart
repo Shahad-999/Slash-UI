@@ -4,7 +4,11 @@ import 'package:slash/domain/models/product.dart';
 import 'package:slash/domain/models/product_details.dart';
 import 'package:slash/domain/repository.dart';
 import 'package:slash/utils/error_status.dart';
-import 'package:slash/utils/result.dart';
+import 'package:slash/utils/response.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
+
+final repoProvider = Provider<ProductsRepository>((ref) => ProductRepositoryImp());
+
 
 class ProductRepositoryImp extends ProductsRepository {
 
@@ -13,32 +17,32 @@ class ProductRepositoryImp extends ProductsRepository {
   ProductRepositoryImp(): _remoteDataSource =getIt.get();
 
   @override
-  Future<Result<List<Product>>> getProducts({required int page})async {
+  Future<Response<List<Product>>> getProducts({required int page})async {
     try {
       final result = await _remoteDataSource.getProducts(page: page);
       if (result != null) {
-        return Result(data: result.map((e) => e?.toModel())
+        return Response(data: result.map((e) => e?.toModel())
             .whereType<Product>()
             .toList());
       } else {
-        return Result(errorStatus: ErrorStatus());
+        return Response(errorStatus: ErrorStatus());
       }
     } catch (e) {
-      return Result(errorStatus: ErrorStatus());
+      return Response(errorStatus: ErrorStatus());
     }
   }
 
   @override
-  Future<Result<ProductDetails>> getProductDetails({required int id})async {
+  Future<Response<ProductDetails>> getProductDetails({required int id})async {
     try {
       final result = await _remoteDataSource.getProductDetails(id: id);
       if (result != null) {
-        return Result(data: result.toModel());
+        return Response(data: result.toModel());
       } else {
-        return Result(errorStatus: ErrorStatus());
+        return Response(errorStatus: ErrorStatus());
       }
     } catch (e) {
-      return Result(errorStatus: ErrorStatus());
+      return Response(errorStatus: ErrorStatus());
     }
   }
 

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:slash/config/routes.dart';
 import 'package:slash/config/service_locator.dart';
 import 'package:slash/config/theme.dart';
@@ -13,11 +14,13 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp.router(
-      routerConfig: AppRouter.router,
-      darkTheme: appTheme,
-      themeMode: ThemeMode.dark,
-      debugShowCheckedModeBanner: false,
+    return ProviderScope(
+      child: MaterialApp.router(
+        routerConfig: AppRouter.router,
+        darkTheme: appTheme,
+        themeMode: ThemeMode.dark,
+        debugShowCheckedModeBanner: false,
+      ),
     );
   }
 }

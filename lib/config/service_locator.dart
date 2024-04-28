@@ -7,7 +7,7 @@ import 'package:dio/dio.dart';
 final GetIt getIt = GetIt.instance;
 
 setup() {
-  getIt.registerSingleton(Dio());
-  getIt.registerSingleton<RemoteDataSource>(RemoteDataSource()..getProducts(page: 1));
+  getIt.registerSingleton(Dio()..interceptors.addAll([LogInterceptor()]));
+  getIt.registerSingleton<RemoteDataSource>(RemoteDataSource());
   getIt.registerSingleton<ProductsRepository>(ProductRepositoryImp());
 }
