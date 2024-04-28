@@ -1,19 +1,24 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:slash/domain/models/product_details_variation.dart';
 import 'package:slash/domain/models/product_property.dart';
-import 'package:slash/presentation/controllers/product_details/product_details_cubit.dart';
+import 'package:slash/presentation/controllers/get_product_details.dart';
 import 'package:slash/utils/ex.dart';
 
-class PropertySelection extends StatelessWidget {
+class PropertySelection extends ConsumerWidget {
   const PropertySelection(
-      {super.key, required this.property, required this.selectedProperties});
+      {super.key, required this.provider,required this.property, required this.selectedProperties});
 
   final ProductProperty property;
   final List<ProductPropertiesValues> selectedProperties;
+  final GetProductDetailsProvider provider;
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context ,WidgetRef ref) {
+
+    onSelectColor(BuildContext context, int id) {
+     ref.read(provider.notifier).selectVariation(id);
+    }
     return Column(
       children: [
         Padding(
@@ -43,7 +48,7 @@ class PropertySelection extends StatelessWidget {
                 return Padding(
                   padding: const EdgeInsets.symmetric(horizontal: 8.0),
                   child: InkWell(
-                    onTap: ()=> _onSelectColor(context,property.values[index].id),
+                    onTap: ()=> onSelectColor(context,property.values[index].id),
                     splashColor: Colors.transparent,
                     child: Container(
                       padding: EdgeInsets.all(8),
@@ -86,7 +91,7 @@ class PropertySelection extends StatelessWidget {
                   padding: const EdgeInsets.symmetric(horizontal: 8.0),
                   child: InkWell(
                     splashColor: Colors.transparent,
-                    onTap: ()=> _onSelectColor(context,property.values[index].id),
+                    onTap: ()=> onSelectColor(context,property.values[index].id),
                     child: Container(
                       padding: const EdgeInsets.all(8),
                       height: 32,
@@ -128,7 +133,7 @@ class PropertySelection extends StatelessWidget {
                   padding: const EdgeInsets.symmetric(horizontal: 8.0),
                   child: InkWell(
                     splashColor: Colors.transparent,
-                    onTap: ()=> _onSelectColor(context,property.values[index].id),
+                    onTap: ()=> onSelectColor(context,property.values[index].id),
                     child: Container(
                       height: 32,
                       width: 32,
@@ -155,7 +160,4 @@ class PropertySelection extends StatelessWidget {
     );
   }
 
-  _onSelectColor(BuildContext context, int id) {
-    context.read<ProductDetailsCubit>().selectVariation(id);
-  }
 }

@@ -11,7 +11,6 @@ class GetProduct extends _$GetProduct {
     final repo = ref.read(repoProvider);
     final result = await repo.getProducts(page: 1);
       return result.data;
-
   }
 
   fetchNewPage({required int page}) async {

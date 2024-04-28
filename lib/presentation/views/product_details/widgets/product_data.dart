@@ -1,15 +1,23 @@
 import 'package:flutter/material.dart';
 import 'package:slash/domain/models/product_details_variation.dart';
+import 'package:slash/presentation/controllers/get_product_details.dart';
 import 'package:slash/presentation/models/product_details_ui.dart';
 import 'package:slash/presentation/views/product_details/widgets/property_selections.dart';
 import 'package:slash/utils/ex.dart';
 
 class ProductData extends StatelessWidget {
-  const ProductData({super.key, required this.price, required this.details, required this.selectedProperties});
+  const ProductData(
+      {super.key,
+      required this.price,
+      required this.details,
+      required this.selectedProperties,
+      required this.provider});
 
   final String price;
   final ProductDetailsUi details;
   final List<ProductPropertiesValues> selectedProperties;
+  final GetProductDetailsProvider provider;
+
   @override
   Widget build(BuildContext context) {
     return Column(
@@ -63,11 +71,16 @@ class ProductData extends StatelessWidget {
             ],
           ),
         ),
-        ...List.generate(details.availableProperties.length,
+        ...List.generate(
+            details.availableProperties.length,
             (index) => Padding(
-              padding: const EdgeInsets.symmetric(vertical: 8.0),
-              child: PropertySelection(property: details.availableProperties[index],selectedProperties:  selectedProperties ,),
-            ))
+                  padding: const EdgeInsets.symmetric(vertical: 8.0),
+                  child: PropertySelection(
+                    property: details.availableProperties[index],
+                    selectedProperties: selectedProperties,
+                    provider: provider,
+                  ),
+                ))
       ],
     );
   }
