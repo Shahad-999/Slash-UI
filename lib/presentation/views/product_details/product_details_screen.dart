@@ -10,7 +10,7 @@ class ProductDetailsScreen extends ConsumerWidget {
   final String id;
 
   @override
-  Widget build(BuildContext context,WidgetRef ref) {
+  Widget build(BuildContext context, WidgetRef ref) {
     final provider = getProductDetailsProvider(id: int.parse(id));
     final product = ref.watch(provider);
     return Scaffold(
@@ -22,13 +22,13 @@ class ProductDetailsScreen extends ConsumerWidget {
         titleTextStyle:
             const TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
       ),
-      body: product.when(data: (data){
-        return ProductDetailsBody(
-                    details: data!,
-                    currentVariation: data.currentVariationUi ,
-          provider: provider,
-                  );
-      },
+      body: product.when(
+        data: (data) {
+          return ProductDetailsBody(
+              details: data,
+              currentVariation: data.currentVariationUi,
+              id: int.parse(id));
+        },
         error: (err, stack) => const Center(child: Text('Try Agian')),
         loading: () => const Center(child: CircularProgressIndicator()),
       ),

@@ -7,18 +7,22 @@ import 'package:slash/utils/ex.dart';
 
 class PropertySelection extends ConsumerWidget {
   const PropertySelection(
-      {super.key, required this.provider,required this.property, required this.selectedProperties});
+      {super.key,
+      required this.productId,
+      required this.property,
+      required this.selectedProperties});
 
   final ProductProperty property;
   final List<ProductPropertiesValues> selectedProperties;
-  final GetProductDetailsProvider provider;
+  final int productId;
 
   @override
-  Widget build(BuildContext context ,WidgetRef ref) {
-
+  Widget build(BuildContext context, WidgetRef ref) {
     onSelectColor(BuildContext context, int id) {
-     ref.read(provider.notifier).selectVariation(id);
+      ref.read(getProductDetailsProvider(id: productId).notifier)
+          .selectVariation(id);
     }
+
     return Column(
       children: [
         Padding(
@@ -35,7 +39,9 @@ class PropertySelection extends ConsumerWidget {
             ),
           ),
         ),
-        const SizedBox(height: 4,),
+        const SizedBox(
+          height: 4,
+        ),
         if (property.propertyType == PropertyType.size)
           SizedBox(
             height: 56,
@@ -48,27 +54,32 @@ class PropertySelection extends ConsumerWidget {
                 return Padding(
                   padding: const EdgeInsets.symmetric(horizontal: 8.0),
                   child: InkWell(
-                    onTap: ()=> onSelectColor(context,property.values[index].id),
+                    onTap: () =>
+                        onSelectColor(context, property.values[index].id),
                     splashColor: Colors.transparent,
                     child: Container(
                       padding: EdgeInsets.all(8),
                       height: 32,
                       decoration: BoxDecoration(
                           color: selectedProperties
-                              .firstWhere((element) =>
-                          element.property == 'Size')
-                              .value ==
-                              (property.values[index].value)? context.getColors().primary: Theme.of(context).cardColor,
+                                      .firstWhere((element) =>
+                                          element.property == 'Size')
+                                      .value ==
+                                  (property.values[index].value)
+                              ? context.getColors().primary
+                              : Theme.of(context).cardColor,
                           borderRadius: BorderRadius.circular(4)),
                       child: Center(
                         child: Text(
                           property.values[index].value,
                           style: TextStyle(
                               color: selectedProperties
-                              .firstWhere((element) =>
-                            element.property == 'Size')
-                            .value ==
-                            (property.values[index].value)? context.getColors().onPrimary: context.getColors().onBackground,
+                                          .firstWhere((element) =>
+                                              element.property == 'Size')
+                                          .value ==
+                                      (property.values[index].value)
+                                  ? context.getColors().onPrimary
+                                  : context.getColors().onBackground,
                               fontWeight: FontWeight.w600),
                         ),
                       ),
@@ -91,26 +102,31 @@ class PropertySelection extends ConsumerWidget {
                   padding: const EdgeInsets.symmetric(horizontal: 8.0),
                   child: InkWell(
                     splashColor: Colors.transparent,
-                    onTap: ()=> onSelectColor(context,property.values[index].id),
+                    onTap: () =>
+                        onSelectColor(context, property.values[index].id),
                     child: Container(
                       padding: const EdgeInsets.all(8),
                       height: 32,
                       decoration: BoxDecoration(
                           color: selectedProperties
-                              .firstWhere((element) =>
-                          element.property == 'Materials')
-                              .value ==
-                              (property.values[index].value)? context.getColors().primary: Theme.of(context).cardColor,
+                                      .firstWhere((element) =>
+                                          element.property == 'Materials')
+                                      .value ==
+                                  (property.values[index].value)
+                              ? context.getColors().primary
+                              : Theme.of(context).cardColor,
                           borderRadius: BorderRadius.circular(4)),
                       child: Center(
                         child: Text(
                           property.values[index].value,
                           style: TextStyle(
                               color: selectedProperties
-                                  .firstWhere((element) =>
-                              element.property == 'Materials')
-                                  .value ==
-                                  (property.values[index].value)? context.getColors().onPrimary: context.getColors().onBackground,
+                                          .firstWhere((element) =>
+                                              element.property == 'Materials')
+                                          .value ==
+                                      (property.values[index].value)
+                                  ? context.getColors().onPrimary
+                                  : context.getColors().onBackground,
                               fontWeight: FontWeight.w600),
                         ),
                       ),
@@ -133,23 +149,28 @@ class PropertySelection extends ConsumerWidget {
                   padding: const EdgeInsets.symmetric(horizontal: 8.0),
                   child: InkWell(
                     splashColor: Colors.transparent,
-                    onTap: ()=> onSelectColor(context,property.values[index].id),
+                    onTap: () =>
+                        onSelectColor(context, property.values[index].id),
                     child: Container(
                       height: 32,
                       width: 32,
                       decoration: BoxDecoration(
-                        shape: BoxShape.circle,
-                        border: Border.all(
-                            color: selectedProperties
-                                .firstWhere((element) =>
-                            element.property == 'Color')
-                                .value ==
-                                (property.values[index].value)
-                                ? Colors.white
-                                : context.getColors().primary.withAlpha(90),
-                            width: 2),
-                        color: Color(int.parse(property.values[index].value.replaceAll(RegExp(r'[()#]'), '').substring(0), radix: 16) + 0xFF000000)
-                      ),
+                          shape: BoxShape.circle,
+                          border: Border.all(
+                              color: selectedProperties
+                                          .firstWhere((element) =>
+                                              element.property == 'Color')
+                                          .value ==
+                                      (property.values[index].value)
+                                  ? Colors.white
+                                  : context.getColors().primary.withAlpha(90),
+                              width: 2),
+                          color: Color(int.parse(
+                                  property.values[index].value
+                                      .replaceAll(RegExp(r'[()#]'), '')
+                                      .substring(0),
+                                  radix: 16) +
+                              0xFF000000)),
                     ),
                   ),
                 );
@@ -159,5 +180,4 @@ class PropertySelection extends ConsumerWidget {
       ],
     );
   }
-
 }

@@ -13,11 +13,6 @@ class ProductsScreen extends HookConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     final products = ref.watch(getProductProvider);
 
-    useEffect(() {
-      ref.read(getProductProvider.notifier).build();
-      return () {};
-    }, []);
-
     return Scaffold(
         appBar: AppBar(
           title: const Text('Slash.'),

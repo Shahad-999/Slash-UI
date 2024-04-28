@@ -9,25 +9,31 @@ import 'package:slash/presentation/views/product_details/widgets/product_descrip
 
 class ProductDetailsBody extends StatelessWidget {
   const ProductDetailsBody(
-      {super.key, required this.currentVariation, required this.details, required this.provider});
+      {super.key,
+      required this.currentVariation,
+      required this.details,
+      required this.id});
 
   final ProductDetailsVariationUi currentVariation;
   final ProductDetailsUi details;
-  final GetProductDetailsProvider provider;
+  final int id;
 
   @override
   Widget build(BuildContext context) {
     return ListView(
       children: [
         Images(images: currentVariation.images),
-        const SizedBox(height: 24,),
-        ProductData(
-          details: details,
-          price: currentVariation.price,
-          selectedProperties : currentVariation.productPropertiesValues,
-          provider: provider,
+        const SizedBox(
+          height: 24,
         ),
-        ProductDescription(description: details.description,),
+        ProductData(
+            details: details,
+            price: currentVariation.price,
+            selectedProperties: currentVariation.productPropertiesValues,
+            id: id),
+        ProductDescription(
+          description: details.description,
+        ),
       ],
     );
   }
