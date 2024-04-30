@@ -28,7 +28,6 @@ class AvailablePropertiesDto extends Equatable {
   }
 
   @override
-  // TODO: implement props
   List<Object?> get props => [
         property,
         values,
@@ -63,7 +62,6 @@ class ValuesDto extends Equatable {
   }
 
   @override
-  // TODO: implement props
   List<Object?> get props => [
         value,
         id,

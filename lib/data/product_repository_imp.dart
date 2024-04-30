@@ -21,7 +21,7 @@ class ProductRepositoryImp extends ProductsRepository {
     try {
       final result = await _remoteDataSource.getProducts(page: page);
       if (result != null) {
-        return Response(data: result.map((e) => e?.toModel())
+        return Response(data: result.map((e) => e.toModel())
             .whereType<Product>()
             .toList());
       } else {

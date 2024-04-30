@@ -39,8 +39,8 @@ class ProductsResponseDto {
     if (this.data != null) {
       final v = this.data;
       final arr0 = [];
-      v!.forEach((v) {
-        arr0.add(v!.toJson());
+      v?.forEach((v) {
+        arr0.add(v.toJson());
       });
       data['data'] = arr0;
     }

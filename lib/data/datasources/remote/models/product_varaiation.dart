@@ -1,3 +1,5 @@
+// ignore_for_file: must_be_immutable
+
 import 'package:equatable/equatable.dart';
 import 'package:slash/data/datasources/remote/models/product_images_dto.dart';
 import 'package:slash/data/datasources/remote/models/product_lookup_dto.dart';

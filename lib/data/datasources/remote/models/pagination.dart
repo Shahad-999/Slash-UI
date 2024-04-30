@@ -1,13 +1,8 @@
+// ignore_for_file: must_be_immutable
+
 import 'package:equatable/equatable.dart';
 
 class Pagination extends Equatable {
-/*
-{
-  "pages": 5,
-  "limit": 100
-}
-*/
-
   int? pages;
   int? limit;
 
