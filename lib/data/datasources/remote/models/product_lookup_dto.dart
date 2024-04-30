@@ -1,5 +1,6 @@
-class ProductVariationsProductStatusLookups {
+import 'package:equatable/equatable.dart';
 
+class ProductVariationsProductStatusLookups extends Equatable {
   int? id;
   String? name;
   String? createdAt;
@@ -25,4 +26,12 @@ class ProductVariationsProductStatusLookups {
     data['updatedAt'] = updatedAt;
     return data;
   }
+
+  @override
+  List<Object?> get props => [
+        id,
+        name,
+        createdAt,
+        updatedAt,
+      ];
 }

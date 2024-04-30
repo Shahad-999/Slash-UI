@@ -1,11 +1,12 @@
+import 'package:equatable/equatable.dart';
 import 'package:slash/domain/models/product_property.dart';
 import 'package:slash/utils/ex.dart';
 
-class AvailablePropertiesDto {
+class AvailablePropertiesDto extends Equatable {
   final String? property;
   final List<ValuesDto>? values;
 
-  AvailablePropertiesDto({
+  const AvailablePropertiesDto({
     this.property,
     this.values,
   });
@@ -25,13 +26,20 @@ class AvailablePropertiesDto {
         propertyType: property.toString().toLowerCase().toPropertyType(),
         values: values?.toSet().map((e) => e.toModel()).toList() ?? []);
   }
+
+  @override
+  // TODO: implement props
+  List<Object?> get props => [
+        property,
+        values,
+      ];
 }
 
-class ValuesDto {
+class ValuesDto extends Equatable {
   final String? value;
   final int? id;
 
-  ValuesDto({
+  const ValuesDto({
     this.value,
     this.id,
   });
@@ -45,12 +53,19 @@ class ValuesDto {
   @override
   bool operator ==(Object other) {
     return other is ValuesDto && other.value == value;
-
   }
+
   @override
   int get hashCode => value.hashCode;
 
   Values toModel() {
     return Values(value: value ?? '', id: id ?? -1);
   }
+
+  @override
+  // TODO: implement props
+  List<Object?> get props => [
+        value,
+        id,
+      ];
 }

@@ -1,6 +1,6 @@
+import 'package:equatable/equatable.dart';
 
-
-class Pagination {
+class Pagination extends Equatable {
 /*
 {
   "pages": 5,
@@ -25,4 +25,10 @@ class Pagination {
     data['limit'] = limit;
     return data;
   }
+
+  @override
+  List<Object?> get props => [
+        pages,
+        limit,
+      ];
 }

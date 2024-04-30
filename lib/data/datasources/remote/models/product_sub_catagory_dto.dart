@@ -1,6 +1,6 @@
-class SubCategories {
+import 'package:equatable/equatable.dart';
 
-
+class SubCategories extends Equatable {
   int? id;
   String? name;
   String? deletedAt;
@@ -38,4 +38,15 @@ class SubCategories {
     data['image_path'] = imagePath;
     return data;
   }
+
+  @override
+  List<Object?> get props => [
+        id,
+        name,
+        deletedAt,
+        createdAt,
+        updatedAt,
+        categoryId,
+        imagePath,
+      ];
 }

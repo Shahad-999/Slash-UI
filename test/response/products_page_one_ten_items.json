@@ -1,0 +1,1043 @@
+{
+    "statusCode": 200,
+    "message": "Find all products successfully",
+    "pagination": {
+        "pages": 43,
+        "limit": 10
+    },
+    "data": [
+        {
+            "id": 31,
+            "name": "Starry night",
+            "type": "Warehouse",
+            "description": "drawings of starry night originally by Vincent van Gogh and copied by me",
+            "sub_category_id": 8,
+            "brand_id": 10,
+            "bosta_size_id": null,
+            "createdAt": "2023-09-25T16:07:37.981Z",
+            "updatedAt": "2024-03-11T18:21:13.185Z",
+            "deletedAt": null,
+            "product_rating": 0,
+            "estimated_days_preparing": 8,
+            "Brands": {
+                "id": 10,
+                "brand_type": "Local",
+                "brand_name": "Artist Mina Maged ",
+                "brand_facebook_page_link": "https://www.facebook.com/MinaMaged12345?mibextid=ZbWKwL",
+                "brand_instagram_page_link": "https://instagram.com/mina._.maged111?igshid=ZDdkNTZiNTM=",
+                "brand_website_link": null,
+                "brand_mobile_number": "01096162068",
+                "brand_email_address": "minamagedref3atnazeer@gmail.com",
+                "tax_id_number": null,
+                "brand_description": "art selling ",
+                "brand_logo_image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fbrands%2F1695386914229FB_IMG_1693330052710.jpg?alt=media&token=501cb71f-ed98-4348-b2e8-41c63e272e32",
+                "brand_status_id": 2,
+                "brand_store_address_id": null,
+                "brand_category_id": 4,
+                "deletedAt": null,
+                "createdAt": "2023-09-22T12:48:34.756Z",
+                "updatedAt": "2023-12-01T00:00:01.889Z",
+                "brand_seller_id": 22,
+                "brand_id": null,
+                "slash_contract_path": null,
+                "brand_rating": 0,
+                "days_limit_to_return": 0,
+                "planId": null
+            },
+            "ProductVariations": [
+                {
+                    "id": 51,
+                    "product_id": 31,
+                    "price": 850,
+                    "quantity": 1,
+                    "warehouse_id": null,
+                    "is_default": true,
+                    "deletedAt": null,
+                    "createdAt": "2023-09-25T16:08:18.607Z",
+                    "updatedAt": "2024-02-08T18:47:59.309Z",
+                    "product_variation_status_id": 2,
+                    "accepted_by": null,
+                    "ProductStatusLookups": {
+                        "id": 2,
+                        "name": "APPROVED",
+                        "createdAt": "2023-09-12T18:47:56.767Z",
+                        "updatedAt": "2023-09-12T18:47:56.767Z"
+                    },
+                    "ProductVarientImages": [
+                        {
+                            "id": 45,
+                            "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fproduct-variants%2F1695658097880IMG_20230202_011736.jpg?alt=media&token=bb42aaf1-ac00-4f95-9864-370ef010ad1e",
+                            "product_varient_id": 51,
+                            "drive_id": null,
+                            "createdAt": "2023-09-25T16:08:18.607Z",
+                            "updatedAt": "2023-09-25T16:08:18.607Z"
+                        },
+                        {
+                            "id": 46,
+                            "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fproduct-variants%2F1695658097881IMG-20230829-WA0049.jpg?alt=media&token=432abf5e-b591-4c68-87ff-adc6bb500361",
+                            "product_varient_id": 51,
+                            "drive_id": null,
+                            "createdAt": "2023-09-25T16:08:18.607Z",
+                            "updatedAt": "2023-09-25T16:08:18.607Z"
+                        }
+                    ]
+                },
+                {
+                    "id": 121,
+                    "product_id": 31,
+                    "price": 850,
+                    "quantity": 1,
+                    "warehouse_id": null,
+                    "is_default": false,
+                    "deletedAt": "2023-11-02T18:08:07.808Z",
+                    "createdAt": "2023-10-26T15:41:47.001Z",
+                    "updatedAt": "2023-11-02T18:08:32.268Z",
+                    "product_variation_status_id": 2,
+                    "accepted_by": null,
+                    "ProductStatusLookups": {
+                        "id": 2,
+                        "name": "APPROVED",
+                        "createdAt": "2023-09-12T18:47:56.767Z",
+                        "updatedAt": "2023-09-12T18:47:56.767Z"
+                    },
+                    "ProductVarientImages": [
+                        {
+                            "id": 215,
+                            "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fproduct-variants%2F1698334906025IMG_20230202_011736.jpg?alt=media&token=5b1d423b-3ea4-4425-b55f-19efd51efd0e",
+                            "product_varient_id": 121,
+                            "drive_id": null,
+                            "createdAt": "2023-10-26T15:41:47.001Z",
+                            "updatedAt": "2023-10-26T15:41:47.001Z"
+                        },
+                        {
+                            "id": 216,
+                            "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fproduct-variants%2F1698334906035IMG-20230829-WA0049.jpg?alt=media&token=3c6617fb-22d7-4be0-b268-aab2c61a7ba4",
+                            "product_varient_id": 121,
+                            "drive_id": null,
+                            "createdAt": "2023-10-26T15:41:47.001Z",
+                            "updatedAt": "2023-10-26T15:41:47.001Z"
+                        }
+                    ]
+                },
+                {
+                    "id": 1429,
+                    "product_id": 31,
+                    "price": 370,
+                    "quantity": 0,
+                    "warehouse_id": null,
+                    "is_default": false,
+                    "deletedAt": null,
+                    "createdAt": "2024-03-11T18:25:48.761Z",
+                    "updatedAt": "2024-03-11T18:25:48.761Z",
+                    "product_variation_status_id": 1,
+                    "accepted_by": null,
+                    "ProductStatusLookups": {
+                        "id": 1,
+                        "name": "PENDING",
+                        "createdAt": "2023-09-12T18:47:56.767Z",
+                        "updatedAt": "2023-09-12T18:47:56.767Z"
+                    },
+                    "ProductVarientImages": [
+                        {
+                            "id": 3011,
+                            "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-f711b.appspot.com/o/images%2Fproduct-variants%2F1710181539713Untitled.png?alt=media&token=7fb0d312-4924-44f2-b78d-d6c3483e5f02",
+                            "product_varient_id": null,
+                            "drive_id": null,
+                            "createdAt": "2024-03-11T18:25:48.761Z",
+                            "updatedAt": "2024-03-11T18:25:48.761Z"
+                        }
+                    ]
+                },
+                {
+                    "id": 1430,
+                    "product_id": 31,
+                    "price": 370,
+                    "quantity": 0,
+                    "warehouse_id": null,
+                    "is_default": false,
+                    "deletedAt": null,
+                    "createdAt": "2024-03-11T18:27:35.915Z",
+                    "updatedAt": "2024-03-11T18:27:35.915Z",
+                    "product_variation_status_id": 1,
+                    "accepted_by": null,
+                    "ProductStatusLookups": {
+                        "id": 1,
+                        "name": "PENDING",
+                        "createdAt": "2023-09-12T18:47:56.767Z",
+                        "updatedAt": "2023-09-12T18:47:56.767Z"
+                    },
+                    "ProductVarientImages": [
+                        {
+                            "id": 3012,
+                            "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-f711b.appspot.com/o/images%2Fproduct-variants%2F1710181646916Untitled.png?alt=media&token=f415151d-6ed7-44e1-bbc4-a7054bcf7e24",
+                            "product_varient_id": null,
+                            "drive_id": null,
+                            "createdAt": "2024-03-11T18:27:35.915Z",
+                            "updatedAt": "2024-03-11T18:27:35.915Z"
+                        }
+                    ]
+                }
+            ],
+            "SubCategories": {
+                "id": 8,
+                "name": "Drawings",
+                "deletedAt": null,
+                "createdAt": "2023-09-23T09:58:10.346Z",
+                "updatedAt": "2023-09-23T09:54:31.865Z",
+                "category_id": 4,
+                "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/categories%2Fcanvas.png?alt=media&token=348aae1e-d4df-43f5-9d48-c50dbf5abb26"
+            },
+            "SizeChart": null,
+            "notApprovedVariants": 2
+        },
+        {
+            "id": 32,
+            "name": "St George icon",
+            "type": "OnDemand",
+            "description": "St George byzantine icon ",
+            "sub_category_id": 8,
+            "brand_id": 10,
+            "bosta_size_id": null,
+            "createdAt": "2023-09-25T16:14:13.091Z",
+            "updatedAt": "2023-09-25T16:14:13.091Z",
+            "deletedAt": null,
+            "product_rating": 0,
+            "estimated_days_preparing": 11,
+            "Brands": {
+                "id": 10,
+                "brand_type": "Local",
+                "brand_name": "Artist Mina Maged ",
+                "brand_facebook_page_link": "https://www.facebook.com/MinaMaged12345?mibextid=ZbWKwL",
+                "brand_instagram_page_link": "https://instagram.com/mina._.maged111?igshid=ZDdkNTZiNTM=",
+                "brand_website_link": null,
+                "brand_mobile_number": "01096162068",
+                "brand_email_address": "minamagedref3atnazeer@gmail.com",
+                "tax_id_number": null,
+                "brand_description": "art selling ",
+                "brand_logo_image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fbrands%2F1695386914229FB_IMG_1693330052710.jpg?alt=media&token=501cb71f-ed98-4348-b2e8-41c63e272e32",
+                "brand_status_id": 2,
+                "brand_store_address_id": null,
+                "brand_category_id": 4,
+                "deletedAt": null,
+                "createdAt": "2023-09-22T12:48:34.756Z",
+                "updatedAt": "2023-12-01T00:00:01.889Z",
+                "brand_seller_id": 22,
+                "brand_id": null,
+                "slash_contract_path": null,
+                "brand_rating": 0,
+                "days_limit_to_return": 0,
+                "planId": null
+            },
+            "ProductVariations": [
+                {
+                    "id": 52,
+                    "product_id": 32,
+                    "price": 900,
+                    "quantity": 1,
+                    "warehouse_id": null,
+                    "is_default": true,
+                    "deletedAt": null,
+                    "createdAt": "2023-09-25T16:15:23.508Z",
+                    "updatedAt": "2023-10-23T16:54:03.095Z",
+                    "product_variation_status_id": 2,
+                    "accepted_by": null,
+                    "ProductStatusLookups": {
+                        "id": 2,
+                        "name": "APPROVED",
+                        "createdAt": "2023-09-12T18:47:56.767Z",
+                        "updatedAt": "2023-09-12T18:47:56.767Z"
+                    },
+                    "ProductVarientImages": [
+                        {
+                            "id": 47,
+                            "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fproduct-variants%2F1695658521113IMG_20230624_173805.jpg?alt=media&token=99ad0718-5295-404d-8da7-6901e7c87ace",
+                            "product_varient_id": 52,
+                            "drive_id": null,
+                            "createdAt": "2023-09-25T16:15:23.508Z",
+                            "updatedAt": "2023-09-25T16:15:23.508Z"
+                        },
+                        {
+                            "id": 48,
+                            "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fproduct-variants%2F1695658521113wallpicture_230925_071310.png?alt=media&token=c943fef9-8fe6-4df3-8068-70eb039f912e",
+                            "product_varient_id": 52,
+                            "drive_id": null,
+                            "createdAt": "2023-09-25T16:15:23.508Z",
+                            "updatedAt": "2023-09-25T16:15:23.508Z"
+                        }
+                    ]
+                }
+            ],
+            "SubCategories": {
+                "id": 8,
+                "name": "Drawings",
+                "deletedAt": null,
+                "createdAt": "2023-09-23T09:58:10.346Z",
+                "updatedAt": "2023-09-23T09:54:31.865Z",
+                "category_id": 4,
+                "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/categories%2Fcanvas.png?alt=media&token=348aae1e-d4df-43f5-9d48-c50dbf5abb26"
+            },
+            "SizeChart": null,
+            "notApprovedVariants": 0
+        },
+        {
+            "id": 33,
+            "name": "Sea waves magic",
+            "type": "OnDemand",
+            "description": "A scene of sea waves with real sand and seashells glued on canvas , to give us the magical vibes of sea✨.      Size : 50L*40W cm",
+            "sub_category_id": 8,
+            "brand_id": 21,
+            "bosta_size_id": null,
+            "createdAt": "2023-09-25T21:22:22.459Z",
+            "updatedAt": "2023-09-25T21:22:22.459Z",
+            "deletedAt": null,
+            "product_rating": 0,
+            "estimated_days_preparing": 3,
+            "Brands": {
+                "id": 21,
+                "brand_type": "Local",
+                "brand_name": "R palette",
+                "brand_facebook_page_link": null,
+                "brand_instagram_page_link": "https://instagram.com/artsy.r_?igshid=MzMyNGUyNmU2YQ==",
+                "brand_website_link": null,
+                "brand_mobile_number": "01064923116",
+                "brand_email_address": "Ranaosama545@gmail.com",
+                "tax_id_number": null,
+                "brand_description": "My brand aims to beautify everything with art . By selling wall art canvases, wood pieces to give life to your home decore , and totebags to take art everywhere with you. ✨",
+                "brand_logo_image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fbrands%2F1695651043846image_picker_BFD50AD8-B1BB-4CA5-943C-A492C7E55823-24601-00000425BF0A3585.png?alt=media&token=d78d151f-226a-42a3-8505-7c56eaf035c4",
+                "brand_status_id": 2,
+                "brand_store_address_id": null,
+                "brand_category_id": 4,
+                "deletedAt": null,
+                "createdAt": "2023-09-25T14:10:45.283Z",
+                "updatedAt": "2023-12-01T00:00:01.991Z",
+                "brand_seller_id": 25,
+                "brand_id": null,
+                "slash_contract_path": null,
+                "brand_rating": 0,
+                "days_limit_to_return": 0,
+                "planId": null
+            },
+            "ProductVariations": [
+                {
+                    "id": 53,
+                    "product_id": 33,
+                    "price": 1200,
+                    "quantity": 1,
+                    "warehouse_id": null,
+                    "is_default": true,
+                    "deletedAt": null,
+                    "createdAt": "2023-09-25T21:23:44.626Z",
+                    "updatedAt": "2024-01-02T10:21:24.323Z",
+                    "product_variation_status_id": 2,
+                    "accepted_by": null,
+                    "ProductStatusLookups": {
+                        "id": 2,
+                        "name": "APPROVED",
+                        "createdAt": "2023-09-12T18:47:56.767Z",
+                        "updatedAt": "2023-09-12T18:47:56.767Z"
+                    },
+                    "ProductVarientImages": [
+                        {
+                            "id": 49,
+                            "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fproduct-variants%2F1695677021636image_picker_68798949-4E49-40A7-9D43-AFEE77348FDF-28624-0000048900338938.jpg?alt=media&token=f721115e-f359-4634-8db2-194dfc0e30b4",
+                            "product_varient_id": 53,
+                            "drive_id": null,
+                            "createdAt": "2023-09-25T21:23:44.626Z",
+                            "updatedAt": "2023-09-25T21:23:44.626Z"
+                        },
+                        {
+                            "id": 50,
+                            "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fproduct-variants%2F1695677021637image_picker_98CC6078-90A0-43DD-BFA4-368C4CAA27E3-28624-00000489981177E6.jpg?alt=media&token=199b77a5-1864-465f-8f86-6001cb79f686",
+                            "product_varient_id": 53,
+                            "drive_id": null,
+                            "createdAt": "2023-09-25T21:23:44.626Z",
+                            "updatedAt": "2023-09-25T21:23:44.626Z"
+                        },
+                        {
+                            "id": 51,
+                            "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fproduct-variants%2F1695677021638image_picker_881A3E49-CEA9-4120-AA83-17FE69FCAF61-28624-0000048C297E3055.png?alt=media&token=3de81da3-4f21-4413-9263-eb4617223a9f",
+                            "product_varient_id": 53,
+                            "drive_id": null,
+                            "createdAt": "2023-09-25T21:23:44.626Z",
+                            "updatedAt": "2023-09-25T21:23:44.626Z"
+                        }
+                    ]
+                }
+            ],
+            "SubCategories": {
+                "id": 8,
+                "name": "Drawings",
+                "deletedAt": null,
+                "createdAt": "2023-09-23T09:58:10.346Z",
+                "updatedAt": "2023-09-23T09:54:31.865Z",
+                "category_id": 4,
+                "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/categories%2Fcanvas.png?alt=media&token=348aae1e-d4df-43f5-9d48-c50dbf5abb26"
+            },
+            "SizeChart": null,
+            "notApprovedVariants": 0
+        },
+        {
+            "id": 34,
+            "name": "Freedom",
+            "type": "OnDemand",
+            "description": "A scene of sunset glow with bird flying to give feelings of life and freedom.",
+            "sub_category_id": 8,
+            "brand_id": 21,
+            "bosta_size_id": null,
+            "createdAt": "2023-09-25T21:32:01.663Z",
+            "updatedAt": "2023-09-25T21:32:01.663Z",
+            "deletedAt": null,
+            "product_rating": 0,
+            "estimated_days_preparing": 3,
+            "Brands": {
+                "id": 21,
+                "brand_type": "Local",
+                "brand_name": "R palette",
+                "brand_facebook_page_link": null,
+                "brand_instagram_page_link": "https://instagram.com/artsy.r_?igshid=MzMyNGUyNmU2YQ==",
+                "brand_website_link": null,
+                "brand_mobile_number": "01064923116",
+                "brand_email_address": "Ranaosama545@gmail.com",
+                "tax_id_number": null,
+                "brand_description": "My brand aims to beautify everything with art . By selling wall art canvases, wood pieces to give life to your home decore , and totebags to take art everywhere with you. ✨",
+                "brand_logo_image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fbrands%2F1695651043846image_picker_BFD50AD8-B1BB-4CA5-943C-A492C7E55823-24601-00000425BF0A3585.png?alt=media&token=d78d151f-226a-42a3-8505-7c56eaf035c4",
+                "brand_status_id": 2,
+                "brand_store_address_id": null,
+                "brand_category_id": 4,
+                "deletedAt": null,
+                "createdAt": "2023-09-25T14:10:45.283Z",
+                "updatedAt": "2023-12-01T00:00:01.991Z",
+                "brand_seller_id": 25,
+                "brand_id": null,
+                "slash_contract_path": null,
+                "brand_rating": 0,
+                "days_limit_to_return": 0,
+                "planId": null
+            },
+            "ProductVariations": [
+                {
+                    "id": 54,
+                    "product_id": 34,
+                    "price": 490,
+                    "quantity": 1,
+                    "warehouse_id": null,
+                    "is_default": true,
+                    "deletedAt": null,
+                    "createdAt": "2023-09-25T21:33:24.716Z",
+                    "updatedAt": "2024-01-02T10:21:49.033Z",
+                    "product_variation_status_id": 2,
+                    "accepted_by": null,
+                    "ProductStatusLookups": {
+                        "id": 2,
+                        "name": "APPROVED",
+                        "createdAt": "2023-09-12T18:47:56.767Z",
+                        "updatedAt": "2023-09-12T18:47:56.767Z"
+                    },
+                    "ProductVarientImages": [
+                        {
+                            "id": 52,
+                            "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fproduct-variants%2F1695677603490image_picker_0D8E234D-FC6B-41AA-92DB-0E5627B7812D-28624-0000048F4DCC5836.jpg?alt=media&token=d7aea55e-df98-4e48-a684-ebda0bb2d95d",
+                            "product_varient_id": 54,
+                            "drive_id": null,
+                            "createdAt": "2023-09-25T21:33:24.716Z",
+                            "updatedAt": "2023-09-25T21:33:24.716Z"
+                        },
+                        {
+                            "id": 53,
+                            "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fproduct-variants%2F1695677603502image_picker_812F5873-4499-49C1-8020-727775F21B56-28624-0000048F649B8973.jpg?alt=media&token=b0f21889-d1d6-4705-98de-6d7d822efc56",
+                            "product_varient_id": 54,
+                            "drive_id": null,
+                            "createdAt": "2023-09-25T21:33:24.716Z",
+                            "updatedAt": "2023-09-25T21:33:24.716Z"
+                        },
+                        {
+                            "id": 54,
+                            "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fproduct-variants%2F1695677603559image_picker_748480A3-520A-4D43-AA73-B42A285A5CD1-28624-0000048FAAC9225A.jpg?alt=media&token=f3704286-181b-47f7-9ac5-64beaa8dd632",
+                            "product_varient_id": 54,
+                            "drive_id": null,
+                            "createdAt": "2023-09-25T21:33:24.716Z",
+                            "updatedAt": "2023-09-25T21:33:24.716Z"
+                        }
+                    ]
+                }
+            ],
+            "SubCategories": {
+                "id": 8,
+                "name": "Drawings",
+                "deletedAt": null,
+                "createdAt": "2023-09-23T09:58:10.346Z",
+                "updatedAt": "2023-09-23T09:54:31.865Z",
+                "category_id": 4,
+                "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/categories%2Fcanvas.png?alt=media&token=348aae1e-d4df-43f5-9d48-c50dbf5abb26"
+            },
+            "SizeChart": null,
+            "notApprovedVariants": 0
+        },
+        {
+            "id": 35,
+            "name": "Manifest",
+            "type": "OnDemand",
+            "description": "Totebag that motivate you to manifest your dream life.",
+            "sub_category_id": 8,
+            "brand_id": 21,
+            "bosta_size_id": null,
+            "createdAt": "2023-09-25T21:38:49.115Z",
+            "updatedAt": "2023-09-25T21:38:49.115Z",
+            "deletedAt": null,
+            "product_rating": 0,
+            "estimated_days_preparing": 5,
+            "Brands": {
+                "id": 21,
+                "brand_type": "Local",
+                "brand_name": "R palette",
+                "brand_facebook_page_link": null,
+                "brand_instagram_page_link": "https://instagram.com/artsy.r_?igshid=MzMyNGUyNmU2YQ==",
+                "brand_website_link": null,
+                "brand_mobile_number": "01064923116",
+                "brand_email_address": "Ranaosama545@gmail.com",
+                "tax_id_number": null,
+                "brand_description": "My brand aims to beautify everything with art . By selling wall art canvases, wood pieces to give life to your home decore , and totebags to take art everywhere with you. ✨",
+                "brand_logo_image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fbrands%2F1695651043846image_picker_BFD50AD8-B1BB-4CA5-943C-A492C7E55823-24601-00000425BF0A3585.png?alt=media&token=d78d151f-226a-42a3-8505-7c56eaf035c4",
+                "brand_status_id": 2,
+                "brand_store_address_id": null,
+                "brand_category_id": 4,
+                "deletedAt": null,
+                "createdAt": "2023-09-25T14:10:45.283Z",
+                "updatedAt": "2023-12-01T00:00:01.991Z",
+                "brand_seller_id": 25,
+                "brand_id": null,
+                "slash_contract_path": null,
+                "brand_rating": 0,
+                "days_limit_to_return": 0,
+                "planId": null
+            },
+            "ProductVariations": [
+                {
+                    "id": 55,
+                    "product_id": 35,
+                    "price": 175,
+                    "quantity": 1,
+                    "warehouse_id": null,
+                    "is_default": true,
+                    "deletedAt": null,
+                    "createdAt": "2023-09-25T21:40:46.217Z",
+                    "updatedAt": "2023-10-13T21:24:44.437Z",
+                    "product_variation_status_id": 2,
+                    "accepted_by": null,
+                    "ProductStatusLookups": {
+                        "id": 2,
+                        "name": "APPROVED",
+                        "createdAt": "2023-09-12T18:47:56.767Z",
+                        "updatedAt": "2023-09-12T18:47:56.767Z"
+                    },
+                    "ProductVarientImages": [
+                        {
+                            "id": 55,
+                            "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fproduct-variants%2F1695678045014image_picker_B33EAED9-D987-4448-AD79-9B4C3C8F5271-28624-00000491A3E9E818.jpg?alt=media&token=af0f34be-752d-41ae-9a4f-77660c2e496e",
+                            "product_varient_id": 55,
+                            "drive_id": null,
+                            "createdAt": "2023-09-25T21:40:46.217Z",
+                            "updatedAt": "2023-09-25T21:40:46.217Z"
+                        },
+                        {
+                            "id": 56,
+                            "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fproduct-variants%2F1695678045017image_picker_7FDCE929-07C8-4742-B8C4-993015DA51B4-28624-00000491B5DC06A9.jpg?alt=media&token=500a74a5-2f08-4be6-8e76-8c0f7a22348f",
+                            "product_varient_id": 55,
+                            "drive_id": null,
+                            "createdAt": "2023-09-25T21:40:46.217Z",
+                            "updatedAt": "2023-09-25T21:40:46.217Z"
+                        },
+                        {
+                            "id": 57,
+                            "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fproduct-variants%2F1695678045018image_picker_01EC0E69-67D2-46AB-9E54-184F1C14A2E2-28624-00000491E8F1CAF0.jpg?alt=media&token=7d16f87c-77cc-4b59-a692-8241771b0083",
+                            "product_varient_id": 55,
+                            "drive_id": null,
+                            "createdAt": "2023-09-25T21:40:46.217Z",
+                            "updatedAt": "2023-09-25T21:40:46.217Z"
+                        }
+                    ]
+                }
+            ],
+            "SubCategories": {
+                "id": 8,
+                "name": "Drawings",
+                "deletedAt": null,
+                "createdAt": "2023-09-23T09:58:10.346Z",
+                "updatedAt": "2023-09-23T09:54:31.865Z",
+                "category_id": 4,
+                "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/categories%2Fcanvas.png?alt=media&token=348aae1e-d4df-43f5-9d48-c50dbf5abb26"
+            },
+            "SizeChart": null,
+            "notApprovedVariants": 0
+        },
+        {
+            "id": 37,
+            "name": "My joy comes from my mind",
+            "type": "OnDemand",
+            "description": "A joyful totebag that express that joyness inside you. ",
+            "sub_category_id": 8,
+            "brand_id": 21,
+            "bosta_size_id": null,
+            "createdAt": "2023-09-25T23:06:58.740Z",
+            "updatedAt": "2023-09-25T23:06:58.740Z",
+            "deletedAt": null,
+            "product_rating": 0,
+            "estimated_days_preparing": 3,
+            "Brands": {
+                "id": 21,
+                "brand_type": "Local",
+                "brand_name": "R palette",
+                "brand_facebook_page_link": null,
+                "brand_instagram_page_link": "https://instagram.com/artsy.r_?igshid=MzMyNGUyNmU2YQ==",
+                "brand_website_link": null,
+                "brand_mobile_number": "01064923116",
+                "brand_email_address": "Ranaosama545@gmail.com",
+                "tax_id_number": null,
+                "brand_description": "My brand aims to beautify everything with art . By selling wall art canvases, wood pieces to give life to your home decore , and totebags to take art everywhere with you. ✨",
+                "brand_logo_image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fbrands%2F1695651043846image_picker_BFD50AD8-B1BB-4CA5-943C-A492C7E55823-24601-00000425BF0A3585.png?alt=media&token=d78d151f-226a-42a3-8505-7c56eaf035c4",
+                "brand_status_id": 2,
+                "brand_store_address_id": null,
+                "brand_category_id": 4,
+                "deletedAt": null,
+                "createdAt": "2023-09-25T14:10:45.283Z",
+                "updatedAt": "2023-12-01T00:00:01.991Z",
+                "brand_seller_id": 25,
+                "brand_id": null,
+                "slash_contract_path": null,
+                "brand_rating": 0,
+                "days_limit_to_return": 0,
+                "planId": null
+            },
+            "ProductVariations": [
+                {
+                    "id": 56,
+                    "product_id": 37,
+                    "price": 175,
+                    "quantity": 1,
+                    "warehouse_id": null,
+                    "is_default": true,
+                    "deletedAt": null,
+                    "createdAt": "2023-09-25T23:07:59.458Z",
+                    "updatedAt": "2023-10-10T09:43:49.783Z",
+                    "product_variation_status_id": 2,
+                    "accepted_by": null,
+                    "ProductStatusLookups": {
+                        "id": 2,
+                        "name": "APPROVED",
+                        "createdAt": "2023-09-12T18:47:56.767Z",
+                        "updatedAt": "2023-09-12T18:47:56.767Z"
+                    },
+                    "ProductVarientImages": [
+                        {
+                            "id": 58,
+                            "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fproduct-variants%2F1695683278270image_picker_DAB8FDE1-EA62-4623-A6DC-0F2788E88AC6-29546-000004A906619A85.jpg?alt=media&token=b7dc75b9-1633-4292-98aa-eeb46efa30dd",
+                            "product_varient_id": 56,
+                            "drive_id": null,
+                            "createdAt": "2023-09-25T23:07:59.458Z",
+                            "updatedAt": "2023-09-25T23:07:59.458Z"
+                        },
+                        {
+                            "id": 59,
+                            "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fproduct-variants%2F1695683278271image_picker_4CE781FF-DE18-4B88-BA10-181048476F65-29546-000004AB19BB9985.jpg?alt=media&token=73a451da-f334-4b43-b3f2-6698f1c24162",
+                            "product_varient_id": 56,
+                            "drive_id": null,
+                            "createdAt": "2023-09-25T23:07:59.458Z",
+                            "updatedAt": "2023-09-25T23:07:59.458Z"
+                        },
+                        {
+                            "id": 60,
+                            "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fproduct-variants%2F1695683278272image_picker_08399A76-5227-4842-A288-D708CCE78D74-29546-000004AB2A8DD1AB.jpg?alt=media&token=a2d1118a-e8b9-49f8-8d3e-cd180fc8ef3b",
+                            "product_varient_id": 56,
+                            "drive_id": null,
+                            "createdAt": "2023-09-25T23:07:59.458Z",
+                            "updatedAt": "2023-09-25T23:07:59.458Z"
+                        }
+                    ]
+                }
+            ],
+            "SubCategories": {
+                "id": 8,
+                "name": "Drawings",
+                "deletedAt": null,
+                "createdAt": "2023-09-23T09:58:10.346Z",
+                "updatedAt": "2023-09-23T09:54:31.865Z",
+                "category_id": 4,
+                "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/categories%2Fcanvas.png?alt=media&token=348aae1e-d4df-43f5-9d48-c50dbf5abb26"
+            },
+            "SizeChart": null,
+            "notApprovedVariants": 0
+        },
+        {
+            "id": 38,
+            "name": "Keep grow ",
+            "type": "OnDemand",
+            "description": "A totebag that helps you grow in your life.",
+            "sub_category_id": 8,
+            "brand_id": 21,
+            "bosta_size_id": null,
+            "createdAt": "2023-09-25T23:11:41.136Z",
+            "updatedAt": "2023-09-25T23:11:41.136Z",
+            "deletedAt": null,
+            "product_rating": 0,
+            "estimated_days_preparing": 3,
+            "Brands": {
+                "id": 21,
+                "brand_type": "Local",
+                "brand_name": "R palette",
+                "brand_facebook_page_link": null,
+                "brand_instagram_page_link": "https://instagram.com/artsy.r_?igshid=MzMyNGUyNmU2YQ==",
+                "brand_website_link": null,
+                "brand_mobile_number": "01064923116",
+                "brand_email_address": "Ranaosama545@gmail.com",
+                "tax_id_number": null,
+                "brand_description": "My brand aims to beautify everything with art . By selling wall art canvases, wood pieces to give life to your home decore , and totebags to take art everywhere with you. ✨",
+                "brand_logo_image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fbrands%2F1695651043846image_picker_BFD50AD8-B1BB-4CA5-943C-A492C7E55823-24601-00000425BF0A3585.png?alt=media&token=d78d151f-226a-42a3-8505-7c56eaf035c4",
+                "brand_status_id": 2,
+                "brand_store_address_id": null,
+                "brand_category_id": 4,
+                "deletedAt": null,
+                "createdAt": "2023-09-25T14:10:45.283Z",
+                "updatedAt": "2023-12-01T00:00:01.991Z",
+                "brand_seller_id": 25,
+                "brand_id": null,
+                "slash_contract_path": null,
+                "brand_rating": 0,
+                "days_limit_to_return": 0,
+                "planId": null
+            },
+            "ProductVariations": [
+                {
+                    "id": 57,
+                    "product_id": 38,
+                    "price": 175,
+                    "quantity": 1,
+                    "warehouse_id": null,
+                    "is_default": true,
+                    "deletedAt": null,
+                    "createdAt": "2023-09-25T23:12:22.354Z",
+                    "updatedAt": "2023-10-30T22:24:55.309Z",
+                    "product_variation_status_id": 2,
+                    "accepted_by": null,
+                    "ProductStatusLookups": {
+                        "id": 2,
+                        "name": "APPROVED",
+                        "createdAt": "2023-09-12T18:47:56.767Z",
+                        "updatedAt": "2023-09-12T18:47:56.767Z"
+                    },
+                    "ProductVarientImages": [
+                        {
+                            "id": 61,
+                            "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fproduct-variants%2F1695683541213image_picker_0714A602-2380-40A4-923D-F7313C41EE1D-29546-000004AD06F6568F.jpg?alt=media&token=e33553b6-4f5f-4c76-b274-41a69780d8c5",
+                            "product_varient_id": 57,
+                            "drive_id": null,
+                            "createdAt": "2023-09-25T23:12:22.354Z",
+                            "updatedAt": "2023-09-25T23:12:22.354Z"
+                        },
+                        {
+                            "id": 62,
+                            "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fproduct-variants%2F1695683541214image_picker_421D6907-8C63-4013-A041-3F65D7B97082-29546-000004AD41CD4FB9.jpg?alt=media&token=7b98c4f7-0ca1-499d-ab75-1d77acbf19fd",
+                            "product_varient_id": 57,
+                            "drive_id": null,
+                            "createdAt": "2023-09-25T23:12:22.354Z",
+                            "updatedAt": "2023-09-25T23:12:22.354Z"
+                        },
+                        {
+                            "id": 63,
+                            "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fproduct-variants%2F1695683541215image_picker_E7F477D6-8701-4159-A6E9-B2CE443257E8-29546-000004AD59CE801A.jpg?alt=media&token=a30f4bb1-05fc-4bde-96d4-97faaa7d2275",
+                            "product_varient_id": 57,
+                            "drive_id": null,
+                            "createdAt": "2023-09-25T23:12:22.354Z",
+                            "updatedAt": "2023-09-25T23:12:22.354Z"
+                        }
+                    ]
+                }
+            ],
+            "SubCategories": {
+                "id": 8,
+                "name": "Drawings",
+                "deletedAt": null,
+                "createdAt": "2023-09-23T09:58:10.346Z",
+                "updatedAt": "2023-09-23T09:54:31.865Z",
+                "category_id": 4,
+                "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/categories%2Fcanvas.png?alt=media&token=348aae1e-d4df-43f5-9d48-c50dbf5abb26"
+            },
+            "SizeChart": null,
+            "notApprovedVariants": 0
+        },
+        {
+            "id": 39,
+            "name": "Eyes world",
+            "type": "OnDemand",
+            "description": "A totebag full of cool eyes and flowers. ",
+            "sub_category_id": 8,
+            "brand_id": 21,
+            "bosta_size_id": null,
+            "createdAt": "2023-09-25T23:19:51.518Z",
+            "updatedAt": "2023-09-25T23:19:51.518Z",
+            "deletedAt": null,
+            "product_rating": 0,
+            "estimated_days_preparing": 4,
+            "Brands": {
+                "id": 21,
+                "brand_type": "Local",
+                "brand_name": "R palette",
+                "brand_facebook_page_link": null,
+                "brand_instagram_page_link": "https://instagram.com/artsy.r_?igshid=MzMyNGUyNmU2YQ==",
+                "brand_website_link": null,
+                "brand_mobile_number": "01064923116",
+                "brand_email_address": "Ranaosama545@gmail.com",
+                "tax_id_number": null,
+                "brand_description": "My brand aims to beautify everything with art . By selling wall art canvases, wood pieces to give life to your home decore , and totebags to take art everywhere with you. ✨",
+                "brand_logo_image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fbrands%2F1695651043846image_picker_BFD50AD8-B1BB-4CA5-943C-A492C7E55823-24601-00000425BF0A3585.png?alt=media&token=d78d151f-226a-42a3-8505-7c56eaf035c4",
+                "brand_status_id": 2,
+                "brand_store_address_id": null,
+                "brand_category_id": 4,
+                "deletedAt": null,
+                "createdAt": "2023-09-25T14:10:45.283Z",
+                "updatedAt": "2023-12-01T00:00:01.991Z",
+                "brand_seller_id": 25,
+                "brand_id": null,
+                "slash_contract_path": null,
+                "brand_rating": 0,
+                "days_limit_to_return": 0,
+                "planId": null
+            },
+            "ProductVariations": [
+                {
+                    "id": 58,
+                    "product_id": 39,
+                    "price": 180,
+                    "quantity": 1,
+                    "warehouse_id": null,
+                    "is_default": true,
+                    "deletedAt": null,
+                    "createdAt": "2023-09-25T23:20:54.075Z",
+                    "updatedAt": "2023-10-30T22:24:55.309Z",
+                    "product_variation_status_id": 2,
+                    "accepted_by": null,
+                    "ProductStatusLookups": {
+                        "id": 2,
+                        "name": "APPROVED",
+                        "createdAt": "2023-09-12T18:47:56.767Z",
+                        "updatedAt": "2023-09-12T18:47:56.767Z"
+                    },
+                    "ProductVarientImages": [
+                        {
+                            "id": 64,
+                            "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fproduct-variants%2F1695684052635image_picker_28315032-A396-4904-BA6C-558673296919-29546-000004AF631B3C2C.jpg?alt=media&token=1fcc1713-3829-4893-910f-8a21e64056ef",
+                            "product_varient_id": 58,
+                            "drive_id": null,
+                            "createdAt": "2023-09-25T23:20:54.075Z",
+                            "updatedAt": "2023-09-25T23:20:54.075Z"
+                        },
+                        {
+                            "id": 65,
+                            "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fproduct-variants%2F1695684052666image_picker_DF488E49-FCF6-4DC2-B1A7-79F88E44C27D-29546-000004AFB4DAD825.jpg?alt=media&token=9db8907c-6d97-4f66-a366-92545312afa9",
+                            "product_varient_id": 58,
+                            "drive_id": null,
+                            "createdAt": "2023-09-25T23:20:54.075Z",
+                            "updatedAt": "2023-09-25T23:20:54.075Z"
+                        },
+                        {
+                            "id": 66,
+                            "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fproduct-variants%2F1695684052673image_picker_619C51AC-A55F-4385-9B7D-05101647FCD0-29546-000004AFC74BC9BF.jpg?alt=media&token=7d0b9d72-9340-4433-b54e-d3b7cba1787a",
+                            "product_varient_id": 58,
+                            "drive_id": null,
+                            "createdAt": "2023-09-25T23:20:54.075Z",
+                            "updatedAt": "2023-09-25T23:20:54.075Z"
+                        }
+                    ]
+                }
+            ],
+            "SubCategories": {
+                "id": 8,
+                "name": "Drawings",
+                "deletedAt": null,
+                "createdAt": "2023-09-23T09:58:10.346Z",
+                "updatedAt": "2023-09-23T09:54:31.865Z",
+                "category_id": 4,
+                "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/categories%2Fcanvas.png?alt=media&token=348aae1e-d4df-43f5-9d48-c50dbf5abb26"
+            },
+            "SizeChart": null,
+            "notApprovedVariants": 0
+        },
+        {
+            "id": 42,
+            "name": "Archangel Michael icon",
+            "type": "OnDemand",
+            "description": "archangel Michael byzantine icon ",
+            "sub_category_id": 8,
+            "brand_id": 10,
+            "bosta_size_id": 1,
+            "createdAt": "2023-09-26T14:43:38.665Z",
+            "updatedAt": "2023-12-13T13:22:41.092Z",
+            "deletedAt": null,
+            "product_rating": 0,
+            "estimated_days_preparing": 12,
+            "Brands": {
+                "id": 10,
+                "brand_type": "Local",
+                "brand_name": "Artist Mina Maged ",
+                "brand_facebook_page_link": "https://www.facebook.com/MinaMaged12345?mibextid=ZbWKwL",
+                "brand_instagram_page_link": "https://instagram.com/mina._.maged111?igshid=ZDdkNTZiNTM=",
+                "brand_website_link": null,
+                "brand_mobile_number": "01096162068",
+                "brand_email_address": "minamagedref3atnazeer@gmail.com",
+                "tax_id_number": null,
+                "brand_description": "art selling ",
+                "brand_logo_image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fbrands%2F1695386914229FB_IMG_1693330052710.jpg?alt=media&token=501cb71f-ed98-4348-b2e8-41c63e272e32",
+                "brand_status_id": 2,
+                "brand_store_address_id": null,
+                "brand_category_id": 4,
+                "deletedAt": null,
+                "createdAt": "2023-09-22T12:48:34.756Z",
+                "updatedAt": "2023-12-01T00:00:01.889Z",
+                "brand_seller_id": 22,
+                "brand_id": null,
+                "slash_contract_path": null,
+                "brand_rating": 0,
+                "days_limit_to_return": 0,
+                "planId": null
+            },
+            "ProductVariations": [
+                {
+                    "id": 60,
+                    "product_id": 42,
+                    "price": 950,
+                    "quantity": 1,
+                    "warehouse_id": null,
+                    "is_default": true,
+                    "deletedAt": null,
+                    "createdAt": "2023-09-26T14:45:36.048Z",
+                    "updatedAt": "2023-11-02T18:09:12.676Z",
+                    "product_variation_status_id": 2,
+                    "accepted_by": null,
+                    "ProductStatusLookups": {
+                        "id": 2,
+                        "name": "APPROVED",
+                        "createdAt": "2023-09-12T18:47:56.767Z",
+                        "updatedAt": "2023-09-12T18:47:56.767Z"
+                    },
+                    "ProductVarientImages": [
+                        {
+                            "id": 68,
+                            "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fproduct-variants%2F1695739534839IMG_20230713_012142.jpg?alt=media&token=e79a8fe8-daf0-4330-af2d-e202b7cb290f",
+                            "product_varient_id": 60,
+                            "drive_id": null,
+                            "createdAt": "2023-09-26T14:45:36.048Z",
+                            "updatedAt": "2023-09-26T14:45:36.048Z"
+                        },
+                        {
+                            "id": 69,
+                            "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fproduct-variants%2F1695739534840IMG-20230829-WA0038.jpg?alt=media&token=76871793-9a3c-4d68-9426-f6ab46ea12c3",
+                            "product_varient_id": 60,
+                            "drive_id": null,
+                            "createdAt": "2023-09-26T14:45:36.048Z",
+                            "updatedAt": "2023-09-26T14:45:36.048Z"
+                        }
+                    ]
+                }
+            ],
+            "SubCategories": {
+                "id": 8,
+                "name": "Drawings",
+                "deletedAt": null,
+                "createdAt": "2023-09-23T09:58:10.346Z",
+                "updatedAt": "2023-09-23T09:54:31.865Z",
+                "category_id": 4,
+                "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/categories%2Fcanvas.png?alt=media&token=348aae1e-d4df-43f5-9d48-c50dbf5abb26"
+            },
+            "SizeChart": null,
+            "notApprovedVariants": 0
+        },
+        {
+            "id": 43,
+            "name": "seashell set",
+            "type": "OnDemand",
+            "description": "a set consists of two seashell plates made of concrete",
+            "sub_category_id": 9,
+            "brand_id": 17,
+            "bosta_size_id": null,
+            "createdAt": "2023-09-26T17:21:43.259Z",
+            "updatedAt": "2023-09-26T17:21:43.259Z",
+            "deletedAt": null,
+            "product_rating": 0,
+            "estimated_days_preparing": 7,
+            "Brands": {
+                "id": 17,
+                "brand_type": "Local",
+                "brand_name": "Terracota",
+                "brand_facebook_page_link": null,
+                "brand_instagram_page_link": "https://instagram.com/terracota_eg?igshid=OGQ5ZDc2ODk2ZA==",
+                "brand_website_link": null,
+                "brand_mobile_number": "01501630001",
+                "brand_email_address": "shiemaa.aglan091@gmail.com",
+                "tax_id_number": null,
+                "brand_description": "we are a brand that create concrete home decor products with a touch of elegance",
+                "brand_logo_image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fbrands%2F1695487949766IMG_20230120_161600_097.jpg?alt=media&token=ada63c09-1e7e-41aa-9f45-9bf584b7b2c8",
+                "brand_status_id": 2,
+                "brand_store_address_id": null,
+                "brand_category_id": 9,
+                "deletedAt": null,
+                "createdAt": "2023-09-23T16:52:30.431Z",
+                "updatedAt": "2024-01-04T07:23:25.388Z",
+                "brand_seller_id": 23,
+                "brand_id": null,
+                "slash_contract_path": null,
+                "brand_rating": 0,
+                "days_limit_to_return": 7,
+                "planId": null
+            },
+            "ProductVariations": [
+                {
+                    "id": 61,
+                    "product_id": 43,
+                    "price": 400,
+                    "quantity": 1,
+                    "warehouse_id": null,
+                    "is_default": true,
+                    "deletedAt": null,
+                    "createdAt": "2023-09-26T17:22:17.441Z",
+                    "updatedAt": "2024-01-02T22:28:08.397Z",
+                    "product_variation_status_id": 2,
+                    "accepted_by": null,
+                    "ProductStatusLookups": {
+                        "id": 2,
+                        "name": "APPROVED",
+                        "createdAt": "2023-09-12T18:47:56.767Z",
+                        "updatedAt": "2023-09-12T18:47:56.767Z"
+                    },
+                    "ProductVarientImages": [
+                        {
+                            "id": 70,
+                            "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fproduct-variants%2F1695748936281IMG_20230818_015146-01.jpg?alt=media&token=f8f0cf47-59e4-414a-b245-39b492ff116e",
+                            "product_varient_id": 61,
+                            "drive_id": null,
+                            "createdAt": "2023-09-26T17:22:17.441Z",
+                            "updatedAt": "2023-09-26T17:22:17.441Z"
+                        },
+                        {
+                            "id": 71,
+                            "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fproduct-variants%2F1695748936293IMG_20230902_110748_Bokeh.jpg?alt=media&token=3bdc87eb-381d-405f-9a42-c93822d5f797",
+                            "product_varient_id": 61,
+                            "drive_id": null,
+                            "createdAt": "2023-09-26T17:22:17.441Z",
+                            "updatedAt": "2023-09-26T17:22:17.441Z"
+                        }
+                    ]
+                }
+            ],
+            "SubCategories": {
+                "id": 9,
+                "name": "Decor",
+                "deletedAt": null,
+                "createdAt": "2023-09-23T09:58:10.346Z",
+                "updatedAt": "2023-09-23T09:55:41.385Z",
+                "category_id": 9,
+                "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/categories%2Fshelf.png?alt=media&token=45d2c4b0-b62d-4e71-a47f-a1ea7cc0f3ff"
+            },
+            "SizeChart": null,
+            "notApprovedVariants": 0
+        }
+    ]
+}

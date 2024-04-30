@@ -1,8 +1,8 @@
+import 'package:equatable/equatable.dart';
 import 'package:slash/data/datasources/remote/models/product_images_dto.dart';
 import 'package:slash/data/datasources/remote/models/product_lookup_dto.dart';
 
-class ProductVariationsDto {
-
+class ProductVariationsDto extends Equatable {
   int? id;
   int? productId;
   int? price;
@@ -44,7 +44,10 @@ class ProductVariationsDto {
     updatedAt = json['updatedAt']?.toString();
     productVariationStatusId = json['product_variation_status_id']?.toInt();
     acceptedBy = json['accepted_by']?.toString();
-    productStatusLookups = (json['ProductStatusLookups'] != null) ? ProductVariationsProductStatusLookups.fromJson(json['ProductStatusLookups']) : null;
+    productStatusLookups = (json['ProductStatusLookups'] != null)
+        ? ProductVariationsProductStatusLookups.fromJson(
+            json['ProductStatusLookups'])
+        : null;
     if (json['ProductVarientImages'] != null) {
       final v = json['ProductVarientImages'];
       final arr0 = <ProductVarientImages>[];
@@ -80,4 +83,21 @@ class ProductVariationsDto {
     }
     return data;
   }
+
+  @override
+  List<Object?> get props => [
+        id,
+        productId,
+        price,
+        quantity,
+        warehouseId,
+        isDefault,
+        deletedAt,
+        createdAt,
+        updatedAt,
+        productVariationStatusId,
+        acceptedBy,
+        productStatusLookups,
+        productVarientImages,
+      ];
 }

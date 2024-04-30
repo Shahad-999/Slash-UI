@@ -22,7 +22,7 @@ class AppRouter {
       ProductDetailsScreen(id: state.pathParameters['id'] ?? '');
 
   static final GoRouter _router = GoRouter(
-    initialLocation: searchScreenRoute,
+    initialLocation: productsRoute,
     routes: [
       GoRoute(path: productsRoute, builder: _productsRouteBuilder),
       GoRoute(path: searchScreenRoute, builder: _searchRouteBuilder),

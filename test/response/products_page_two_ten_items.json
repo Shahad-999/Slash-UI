@@ -1,0 +1,1673 @@
+{
+    "statusCode": 200,
+    "message": "Find all products successfully",
+    "pagination": {
+        "pages": 43,
+        "limit": 10
+    },
+    "data": [
+        {
+            "id": 44,
+            "name": "Insence set",
+            "type": "OnDemand",
+            "description": "A set consist of 4 pieces( oval tray, round trinket box, round incense holder) made of concrete ",
+            "sub_category_id": 9,
+            "brand_id": 17,
+            "bosta_size_id": null,
+            "createdAt": "2023-09-26T18:01:27.410Z",
+            "updatedAt": "2023-09-26T18:01:27.410Z",
+            "deletedAt": null,
+            "product_rating": 0,
+            "estimated_days_preparing": 7,
+            "Brands": {
+                "id": 17,
+                "brand_type": "Local",
+                "brand_name": "Terracota",
+                "brand_facebook_page_link": null,
+                "brand_instagram_page_link": "https://instagram.com/terracota_eg?igshid=OGQ5ZDc2ODk2ZA==",
+                "brand_website_link": null,
+                "brand_mobile_number": "01501630001",
+                "brand_email_address": "shiemaa.aglan091@gmail.com",
+                "tax_id_number": null,
+                "brand_description": "we are a brand that create concrete home decor products with a touch of elegance",
+                "brand_logo_image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fbrands%2F1695487949766IMG_20230120_161600_097.jpg?alt=media&token=ada63c09-1e7e-41aa-9f45-9bf584b7b2c8",
+                "brand_status_id": 2,
+                "brand_store_address_id": null,
+                "brand_category_id": 9,
+                "deletedAt": null,
+                "createdAt": "2023-09-23T16:52:30.431Z",
+                "updatedAt": "2024-01-04T07:23:25.388Z",
+                "brand_seller_id": 23,
+                "brand_id": null,
+                "slash_contract_path": null,
+                "brand_rating": 0,
+                "days_limit_to_return": 7,
+                "planId": null
+            },
+            "ProductVariations": [
+                {
+                    "id": 62,
+                    "product_id": 44,
+                    "price": 350,
+                    "quantity": 1,
+                    "warehouse_id": null,
+                    "is_default": true,
+                    "deletedAt": null,
+                    "createdAt": "2023-09-26T18:01:54.552Z",
+                    "updatedAt": "2023-12-20T22:18:06.962Z",
+                    "product_variation_status_id": 2,
+                    "accepted_by": null,
+                    "ProductStatusLookups": {
+                        "id": 2,
+                        "name": "APPROVED",
+                        "createdAt": "2023-09-12T18:47:56.767Z",
+                        "updatedAt": "2023-09-12T18:47:56.767Z"
+                    },
+                    "ProductVarientImages": [
+                        {
+                            "id": 72,
+                            "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fproduct-variants%2F1695751313730IMG_20230910_172433_Bokeh.jpg?alt=media&token=0b2ed1cb-68d1-4712-95ee-f9ee86a1add9",
+                            "product_varient_id": 62,
+                            "drive_id": null,
+                            "createdAt": "2023-09-26T18:01:54.552Z",
+                            "updatedAt": "2023-09-26T18:01:54.552Z"
+                        },
+                        {
+                            "id": 73,
+                            "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fproduct-variants%2F1695751313731IMG_20230910_172926_Bokeh.jpg?alt=media&token=9a459ce2-a870-4292-830a-da43b8f72756",
+                            "product_varient_id": 62,
+                            "drive_id": null,
+                            "createdAt": "2023-09-26T18:01:54.552Z",
+                            "updatedAt": "2023-09-26T18:01:54.552Z"
+                        }
+                    ]
+                }
+            ],
+            "SubCategories": {
+                "id": 9,
+                "name": "Decor",
+                "deletedAt": null,
+                "createdAt": "2023-09-23T09:58:10.346Z",
+                "updatedAt": "2023-09-23T09:55:41.385Z",
+                "category_id": 9,
+                "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/categories%2Fshelf.png?alt=media&token=45d2c4b0-b62d-4e71-a47f-a1ea7cc0f3ff"
+            },
+            "SizeChart": null,
+            "notApprovedVariants": 0
+        },
+        {
+            "id": 46,
+            "name": "Horus Shirt",
+            "type": "OnDemand",
+            "description": "A high quality tshirt available in all sizes",
+            "sub_category_id": 1,
+            "brand_id": 30,
+            "bosta_size_id": null,
+            "createdAt": "2023-09-28T11:07:47.466Z",
+            "updatedAt": "2023-09-28T11:07:47.466Z",
+            "deletedAt": null,
+            "product_rating": 0,
+            "estimated_days_preparing": 3,
+            "Brands": {
+                "id": 30,
+                "brand_type": "Local",
+                "brand_name": "Meraki",
+                "brand_facebook_page_link": null,
+                "brand_instagram_page_link": "https://instagram.com/meraki.egyp?igshid=NzZhOTFlYzFmZQ==",
+                "brand_website_link": null,
+                "brand_mobile_number": "01222662815",
+                "brand_email_address": "merakiegyp@gmail.com",
+                "tax_id_number": null,
+                "brand_description": "Meraki is a clothing brand that offers the highest quality with the best prices!",
+                "brand_logo_image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fbrands%2F1695803873726image_picker_1D6E11FD-800D-4DF9-A04B-B653DBA896B0-373-000000601671B2F3.png?alt=media&token=2ee6437a-751f-4bbf-8d70-b1fd84a3eafc",
+                "brand_status_id": 2,
+                "brand_store_address_id": null,
+                "brand_category_id": 8,
+                "deletedAt": null,
+                "createdAt": "2023-09-27T08:37:54.329Z",
+                "updatedAt": "2023-12-01T00:00:03.089Z",
+                "brand_seller_id": 43,
+                "brand_id": null,
+                "slash_contract_path": null,
+                "brand_rating": 0,
+                "days_limit_to_return": 14,
+                "planId": null
+            },
+            "ProductVariations": [
+                {
+                    "id": 63,
+                    "product_id": 46,
+                    "price": 250,
+                    "quantity": 10,
+                    "warehouse_id": null,
+                    "is_default": true,
+                    "deletedAt": null,
+                    "createdAt": "2023-09-28T11:07:52.385Z",
+                    "updatedAt": "2024-01-02T12:36:47.755Z",
+                    "product_variation_status_id": 1,
+                    "accepted_by": null,
+                    "ProductStatusLookups": {
+                        "id": 1,
+                        "name": "PENDING",
+                        "createdAt": "2023-09-12T18:47:56.767Z",
+                        "updatedAt": "2023-09-12T18:47:56.767Z"
+                    },
+                    "ProductVarientImages": [
+                        {
+                            "id": 74,
+                            "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fproduct-variants%2F1695899271535image_picker_399AC24A-F5FA-4741-B92C-D6EDADB751EA-3657-0000016438B8568D.jpg?alt=media&token=72286cfc-bee4-4a38-acd9-c00448c0362a",
+                            "product_varient_id": 63,
+                            "drive_id": null,
+                            "createdAt": "2023-09-28T11:07:52.385Z",
+                            "updatedAt": "2023-09-28T11:07:52.385Z"
+                        },
+                        {
+                            "id": 75,
+                            "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fproduct-variants%2F1695899271537image_picker_62EF7E26-D127-447F-A102-7C08A69884B1-3657-00000164118ED744.jpg?alt=media&token=8d468e5f-4235-4d2b-91a3-97a529b98207",
+                            "product_varient_id": 63,
+                            "drive_id": null,
+                            "createdAt": "2023-09-28T11:07:52.385Z",
+                            "updatedAt": "2023-09-28T11:07:52.385Z"
+                        },
+                        {
+                            "id": 76,
+                            "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fproduct-variants%2F1695899271538image_picker_DB1074AC-2739-4E3A-9350-AEC5B97B5558-3657-000001644113C40E.jpg?alt=media&token=6fcc30de-ab95-485b-8ef9-1983c4fed5ed",
+                            "product_varient_id": 63,
+                            "drive_id": null,
+                            "createdAt": "2023-09-28T11:07:52.385Z",
+                            "updatedAt": "2023-09-28T11:07:52.385Z"
+                        }
+                    ]
+                },
+                {
+                    "id": 481,
+                    "product_id": 46,
+                    "price": 250,
+                    "quantity": 10,
+                    "warehouse_id": null,
+                    "is_default": true,
+                    "deletedAt": null,
+                    "createdAt": "2023-12-12T10:34:56.528Z",
+                    "updatedAt": "2023-12-12T10:42:05.869Z",
+                    "product_variation_status_id": 2,
+                    "accepted_by": null,
+                    "ProductStatusLookups": {
+                        "id": 2,
+                        "name": "APPROVED",
+                        "createdAt": "2023-09-12T18:47:56.767Z",
+                        "updatedAt": "2023-09-12T18:47:56.767Z"
+                    },
+                    "ProductVarientImages": [
+                        {
+                            "id": 1169,
+                            "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fproduct-variants%2F17023772958611695899271535image_picker_399AC24A-F5FA-4741-B92C-D6EDADB751EA-3657-0000016438B8568D.jpg?alt=media&token=783f5f81-a307-4d84-bcfb-e9d4825e11d1",
+                            "product_varient_id": null,
+                            "drive_id": null,
+                            "createdAt": "2023-12-12T10:34:56.528Z",
+                            "updatedAt": "2023-12-12T10:34:56.528Z"
+                        },
+                        {
+                            "id": 1170,
+                            "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fproduct-variants%2F17023772958651695899271537image_picker_62EF7E26-D127-447F-A102-7C08A69884B1-3657-00000164118ED744.jpg?alt=media&token=94569055-52fa-474f-8f57-d0e74f958280",
+                            "product_varient_id": null,
+                            "drive_id": null,
+                            "createdAt": "2023-12-12T10:34:56.528Z",
+                            "updatedAt": "2023-12-12T10:34:56.528Z"
+                        },
+                        {
+                            "id": 1171,
+                            "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fproduct-variants%2F17023772958651695899271538image_picker_DB1074AC-2739-4E3A-9350-AEC5B97B5558-3657-000001644113C40E.jpg?alt=media&token=3480940c-4520-4d6c-a084-fcfa16b52f59",
+                            "product_varient_id": null,
+                            "drive_id": null,
+                            "createdAt": "2023-12-12T10:34:56.528Z",
+                            "updatedAt": "2023-12-12T10:34:56.528Z"
+                        }
+                    ]
+                },
+                {
+                    "id": 483,
+                    "product_id": 46,
+                    "price": 250,
+                    "quantity": 10,
+                    "warehouse_id": null,
+                    "is_default": true,
+                    "deletedAt": null,
+                    "createdAt": "2023-12-12T10:35:51.567Z",
+                    "updatedAt": "2023-12-12T10:42:15.987Z",
+                    "product_variation_status_id": 2,
+                    "accepted_by": null,
+                    "ProductStatusLookups": {
+                        "id": 2,
+                        "name": "APPROVED",
+                        "createdAt": "2023-09-12T18:47:56.767Z",
+                        "updatedAt": "2023-09-12T18:47:56.767Z"
+                    },
+                    "ProductVarientImages": [
+                        {
+                            "id": 1175,
+                            "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fproduct-variants%2F17023773509471695899271535image_picker_399AC24A-F5FA-4741-B92C-D6EDADB751EA-3657-0000016438B8568D.jpg?alt=media&token=b243fc78-3268-4d22-8868-cd9421f6ae25",
+                            "product_varient_id": null,
+                            "drive_id": null,
+                            "createdAt": "2023-12-12T10:35:51.567Z",
+                            "updatedAt": "2023-12-12T10:35:51.567Z"
+                        },
+                        {
+                            "id": 1176,
+                            "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fproduct-variants%2F17023773509471695899271537image_picker_62EF7E26-D127-447F-A102-7C08A69884B1-3657-00000164118ED744.jpg?alt=media&token=f353efda-fc6a-4563-aeea-ef3471063bfd",
+                            "product_varient_id": null,
+                            "drive_id": null,
+                            "createdAt": "2023-12-12T10:35:51.567Z",
+                            "updatedAt": "2023-12-12T10:35:51.567Z"
+                        },
+                        {
+                            "id": 1177,
+                            "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fproduct-variants%2F17023773509481695899271538image_picker_DB1074AC-2739-4E3A-9350-AEC5B97B5558-3657-000001644113C40E.jpg?alt=media&token=130b53db-2cca-4738-a6a9-936ca00d986a",
+                            "product_varient_id": null,
+                            "drive_id": null,
+                            "createdAt": "2023-12-12T10:35:51.567Z",
+                            "updatedAt": "2023-12-12T10:35:51.567Z"
+                        }
+                    ]
+                },
+                {
+                    "id": 485,
+                    "product_id": 46,
+                    "price": 250,
+                    "quantity": 10,
+                    "warehouse_id": null,
+                    "is_default": true,
+                    "deletedAt": null,
+                    "createdAt": "2023-12-12T10:37:05.749Z",
+                    "updatedAt": "2023-12-12T10:42:24.547Z",
+                    "product_variation_status_id": 2,
+                    "accepted_by": null,
+                    "ProductStatusLookups": {
+                        "id": 2,
+                        "name": "APPROVED",
+                        "createdAt": "2023-09-12T18:47:56.767Z",
+                        "updatedAt": "2023-09-12T18:47:56.767Z"
+                    },
+                    "ProductVarientImages": [
+                        {
+                            "id": 1181,
+                            "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fproduct-variants%2F17023774252211695899271535image_picker_399AC24A-F5FA-4741-B92C-D6EDADB751EA-3657-0000016438B8568D.jpg?alt=media&token=ce0d7df9-368e-48b4-bde7-2415ffbb17c0",
+                            "product_varient_id": null,
+                            "drive_id": "1FegrWMtInwDiRi24I08ceXgFDHRiCCjU",
+                            "createdAt": "2023-12-12T10:37:05.749Z",
+                            "updatedAt": "2024-04-04T16:59:16.081Z"
+                        },
+                        {
+                            "id": 1182,
+                            "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fproduct-variants%2F17023774252211695899271537image_picker_62EF7E26-D127-447F-A102-7C08A69884B1-3657-00000164118ED744.jpg?alt=media&token=58a399e3-7581-4c85-aaa8-f9ad34e3bb5e",
+                            "product_varient_id": null,
+                            "drive_id": null,
+                            "createdAt": "2023-12-12T10:37:05.749Z",
+                            "updatedAt": "2023-12-12T10:37:05.749Z"
+                        },
+                        {
+                            "id": 1183,
+                            "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fproduct-variants%2F17023774252221695899271538image_picker_DB1074AC-2739-4E3A-9350-AEC5B97B5558-3657-000001644113C40E.jpg?alt=media&token=1d12fdad-83f9-42f8-b817-b196b431ce40",
+                            "product_varient_id": null,
+                            "drive_id": "1FBQepzkW089Bkh-9HvX9RJSNZgftA4Se",
+                            "createdAt": "2023-12-12T10:37:05.749Z",
+                            "updatedAt": "2024-04-04T17:00:58.348Z"
+                        }
+                    ]
+                },
+                {
+                    "id": 487,
+                    "product_id": 46,
+                    "price": 250,
+                    "quantity": 10,
+                    "warehouse_id": null,
+                    "is_default": true,
+                    "deletedAt": null,
+                    "createdAt": "2023-12-12T10:41:11.040Z",
+                    "updatedAt": "2023-12-12T10:42:38.576Z",
+                    "product_variation_status_id": 2,
+                    "accepted_by": null,
+                    "ProductStatusLookups": {
+                        "id": 2,
+                        "name": "APPROVED",
+                        "createdAt": "2023-09-12T18:47:56.767Z",
+                        "updatedAt": "2023-09-12T18:47:56.767Z"
+                    },
+                    "ProductVarientImages": [
+                        {
+                            "id": 1187,
+                            "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fproduct-variants%2F17023776705541695899271535image_picker_399AC24A-F5FA-4741-B92C-D6EDADB751EA-3657-0000016438B8568D.jpg?alt=media&token=08bcec07-c73d-434a-b205-070ff2ad4b2f",
+                            "product_varient_id": null,
+                            "drive_id": null,
+                            "createdAt": "2023-12-12T10:41:11.040Z",
+                            "updatedAt": "2023-12-12T10:41:11.040Z"
+                        },
+                        {
+                            "id": 1188,
+                            "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fproduct-variants%2F17023776705541695899271537image_picker_62EF7E26-D127-447F-A102-7C08A69884B1-3657-00000164118ED744.jpg?alt=media&token=0301c1c4-a58a-4a69-a604-5a7c20bd6fea",
+                            "product_varient_id": null,
+                            "drive_id": null,
+                            "createdAt": "2023-12-12T10:41:11.040Z",
+                            "updatedAt": "2023-12-12T10:41:11.040Z"
+                        },
+                        {
+                            "id": 1189,
+                            "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fproduct-variants%2F17023776705551695899271538image_picker_DB1074AC-2739-4E3A-9350-AEC5B97B5558-3657-000001644113C40E.jpg?alt=media&token=aba18090-aca3-4137-9232-36ae9689c8e3",
+                            "product_varient_id": null,
+                            "drive_id": "1uoxe27InSxBpgyz-CSV28VjDUzhQGP5j",
+                            "createdAt": "2023-12-12T10:41:11.040Z",
+                            "updatedAt": "2024-04-04T16:59:05.708Z"
+                        }
+                    ]
+                },
+                {
+                    "id": 486,
+                    "product_id": 46,
+                    "price": 300,
+                    "quantity": 8,
+                    "warehouse_id": null,
+                    "is_default": true,
+                    "deletedAt": null,
+                    "createdAt": "2023-12-12T10:40:46.564Z",
+                    "updatedAt": "2023-12-12T10:42:34.170Z",
+                    "product_variation_status_id": 2,
+                    "accepted_by": null,
+                    "ProductStatusLookups": {
+                        "id": 2,
+                        "name": "APPROVED",
+                        "createdAt": "2023-09-12T18:47:56.767Z",
+                        "updatedAt": "2023-09-12T18:47:56.767Z"
+                    },
+                    "ProductVarientImages": [
+                        {
+                            "id": 1184,
+                            "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fproduct-variants%2F17023776461251695899271535image_picker_399AC24A-F5FA-4741-B92C-D6EDADB751EA-3657-0000016438B8568D.jpg?alt=media&token=c3340459-43c6-4c87-be91-16c739930381",
+                            "product_varient_id": null,
+                            "drive_id": null,
+                            "createdAt": "2023-12-12T10:40:46.564Z",
+                            "updatedAt": "2023-12-12T10:40:46.564Z"
+                        },
+                        {
+                            "id": 1185,
+                            "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fproduct-variants%2F17023776461271695899271537image_picker_62EF7E26-D127-447F-A102-7C08A69884B1-3657-00000164118ED744.jpg?alt=media&token=7dd7fa70-072d-42a9-919d-584e2d8eb2c9",
+                            "product_varient_id": null,
+                            "drive_id": null,
+                            "createdAt": "2023-12-12T10:40:46.564Z",
+                            "updatedAt": "2023-12-12T10:40:46.564Z"
+                        },
+                        {
+                            "id": 1186,
+                            "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fproduct-variants%2F17023776461271695899271538image_picker_DB1074AC-2739-4E3A-9350-AEC5B97B5558-3657-000001644113C40E.jpg?alt=media&token=ec152f85-16da-46bb-bd27-559749789b62",
+                            "product_varient_id": null,
+                            "drive_id": null,
+                            "createdAt": "2023-12-12T10:40:46.564Z",
+                            "updatedAt": "2023-12-12T10:40:46.564Z"
+                        }
+                    ]
+                },
+                {
+                    "id": 64,
+                    "product_id": 46,
+                    "price": 300,
+                    "quantity": 8,
+                    "warehouse_id": null,
+                    "is_default": false,
+                    "deletedAt": null,
+                    "createdAt": "2023-09-28T11:12:37.786Z",
+                    "updatedAt": "2024-01-02T12:37:46.975Z",
+                    "product_variation_status_id": 1,
+                    "accepted_by": null,
+                    "ProductStatusLookups": {
+                        "id": 1,
+                        "name": "PENDING",
+                        "createdAt": "2023-09-12T18:47:56.767Z",
+                        "updatedAt": "2023-09-12T18:47:56.767Z"
+                    },
+                    "ProductVarientImages": [
+                        {
+                            "id": 77,
+                            "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fproduct-variants%2F1695899557018image_picker_0BFFA342-0E78-4C5F-9C48-174D3B7FEAEB-3657-000001688D43E943.jpg?alt=media&token=543b8ea9-3c4b-49d2-b452-9d3492080d65",
+                            "product_varient_id": 64,
+                            "drive_id": null,
+                            "createdAt": "2023-09-28T11:12:37.786Z",
+                            "updatedAt": "2023-09-28T11:12:37.786Z"
+                        },
+                        {
+                            "id": 78,
+                            "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fproduct-variants%2F1695899557019image_picker_1CAF9B53-BB89-49A8-9A82-1EDA97C28052-3657-0000016895E5D529.jpg?alt=media&token=10d2ae53-a580-4cad-b8bf-3534f6b139c4",
+                            "product_varient_id": 64,
+                            "drive_id": null,
+                            "createdAt": "2023-09-28T11:12:37.786Z",
+                            "updatedAt": "2023-09-28T11:12:37.786Z"
+                        },
+                        {
+                            "id": 79,
+                            "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fproduct-variants%2F1695899557020image_picker_75EEA2D8-9204-43BB-980B-B2E14C28142A-3657-000001689B28FABC.jpg?alt=media&token=31c2cae8-55a1-4565-9972-cc5d6762e159",
+                            "product_varient_id": 64,
+                            "drive_id": null,
+                            "createdAt": "2023-09-28T11:12:37.786Z",
+                            "updatedAt": "2023-09-28T11:12:37.786Z"
+                        }
+                    ]
+                },
+                {
+                    "id": 488,
+                    "product_id": 46,
+                    "price": 300,
+                    "quantity": 8,
+                    "warehouse_id": null,
+                    "is_default": true,
+                    "deletedAt": null,
+                    "createdAt": "2023-12-12T10:41:45.904Z",
+                    "updatedAt": "2023-12-12T10:42:43.510Z",
+                    "product_variation_status_id": 2,
+                    "accepted_by": null,
+                    "ProductStatusLookups": {
+                        "id": 2,
+                        "name": "APPROVED",
+                        "createdAt": "2023-09-12T18:47:56.767Z",
+                        "updatedAt": "2023-09-12T18:47:56.767Z"
+                    },
+                    "ProductVarientImages": [
+                        {
+                            "id": 1190,
+                            "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fproduct-variants%2F17023777054351695899271535image_picker_399AC24A-F5FA-4741-B92C-D6EDADB751EA-3657-0000016438B8568D.jpg?alt=media&token=1f049972-b7ce-420e-842d-2351cedc17d9",
+                            "product_varient_id": null,
+                            "drive_id": null,
+                            "createdAt": "2023-12-12T10:41:45.904Z",
+                            "updatedAt": "2023-12-12T10:41:45.904Z"
+                        },
+                        {
+                            "id": 1191,
+                            "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fproduct-variants%2F17023777054351695899271537image_picker_62EF7E26-D127-447F-A102-7C08A69884B1-3657-00000164118ED744.jpg?alt=media&token=be2479b1-a0fc-4a5e-9724-f0e256301ac1",
+                            "product_varient_id": null,
+                            "drive_id": null,
+                            "createdAt": "2023-12-12T10:41:45.904Z",
+                            "updatedAt": "2023-12-12T10:41:45.904Z"
+                        },
+                        {
+                            "id": 1192,
+                            "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fproduct-variants%2F17023777054351695899271538image_picker_DB1074AC-2739-4E3A-9350-AEC5B97B5558-3657-000001644113C40E.jpg?alt=media&token=4590346b-b5bd-4c27-a980-f261eb38b624",
+                            "product_varient_id": null,
+                            "drive_id": null,
+                            "createdAt": "2023-12-12T10:41:45.904Z",
+                            "updatedAt": "2023-12-12T10:41:45.904Z"
+                        }
+                    ]
+                },
+                {
+                    "id": 482,
+                    "product_id": 46,
+                    "price": 300,
+                    "quantity": 8,
+                    "warehouse_id": null,
+                    "is_default": true,
+                    "deletedAt": null,
+                    "createdAt": "2023-12-12T10:35:30.852Z",
+                    "updatedAt": "2023-12-12T10:42:11.718Z",
+                    "product_variation_status_id": 2,
+                    "accepted_by": null,
+                    "ProductStatusLookups": {
+                        "id": 2,
+                        "name": "APPROVED",
+                        "createdAt": "2023-09-12T18:47:56.767Z",
+                        "updatedAt": "2023-09-12T18:47:56.767Z"
+                    },
+                    "ProductVarientImages": [
+                        {
+                            "id": 1172,
+                            "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fproduct-variants%2F17023773299471695899271535image_picker_399AC24A-F5FA-4741-B92C-D6EDADB751EA-3657-0000016438B8568D.jpg?alt=media&token=0fb92776-1bfb-4d97-ba56-592b84fd064e",
+                            "product_varient_id": null,
+                            "drive_id": "1uKNY_KP4qdGRNPUx6aHnm9AXbKUUBZNA",
+                            "createdAt": "2023-12-12T10:35:30.852Z",
+                            "updatedAt": "2024-04-04T17:00:46.571Z"
+                        },
+                        {
+                            "id": 1173,
+                            "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fproduct-variants%2F17023773299481695899271537image_picker_62EF7E26-D127-447F-A102-7C08A69884B1-3657-00000164118ED744.jpg?alt=media&token=012ba110-ecaa-479d-945b-078a3721d04f",
+                            "product_varient_id": null,
+                            "drive_id": null,
+                            "createdAt": "2023-12-12T10:35:30.852Z",
+                            "updatedAt": "2023-12-12T10:35:30.852Z"
+                        },
+                        {
+                            "id": 1174,
+                            "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fproduct-variants%2F17023773299491695899271538image_picker_DB1074AC-2739-4E3A-9350-AEC5B97B5558-3657-000001644113C40E.jpg?alt=media&token=24675d22-bb17-4fa6-bb36-2e3e17374758",
+                            "product_varient_id": null,
+                            "drive_id": null,
+                            "createdAt": "2023-12-12T10:35:30.852Z",
+                            "updatedAt": "2023-12-12T10:35:30.852Z"
+                        }
+                    ]
+                },
+                {
+                    "id": 484,
+                    "product_id": 46,
+                    "price": 300,
+                    "quantity": 8,
+                    "warehouse_id": null,
+                    "is_default": true,
+                    "deletedAt": null,
+                    "createdAt": "2023-12-12T10:36:41.513Z",
+                    "updatedAt": "2023-12-12T10:42:20.727Z",
+                    "product_variation_status_id": 2,
+                    "accepted_by": null,
+                    "ProductStatusLookups": {
+                        "id": 2,
+                        "name": "APPROVED",
+                        "createdAt": "2023-09-12T18:47:56.767Z",
+                        "updatedAt": "2023-09-12T18:47:56.767Z"
+                    },
+                    "ProductVarientImages": [
+                        {
+                            "id": 1178,
+                            "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fproduct-variants%2F17023774009581695899271535image_picker_399AC24A-F5FA-4741-B92C-D6EDADB751EA-3657-0000016438B8568D.jpg?alt=media&token=b4965cb1-a736-47ac-a30f-dbbfb6f4907a",
+                            "product_varient_id": null,
+                            "drive_id": null,
+                            "createdAt": "2023-12-12T10:36:41.513Z",
+                            "updatedAt": "2023-12-12T10:36:41.513Z"
+                        },
+                        {
+                            "id": 1179,
+                            "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fproduct-variants%2F17023774009591695899271537image_picker_62EF7E26-D127-447F-A102-7C08A69884B1-3657-00000164118ED744.jpg?alt=media&token=86730d83-a61e-44c0-985c-95a7ded7828b",
+                            "product_varient_id": null,
+                            "drive_id": null,
+                            "createdAt": "2023-12-12T10:36:41.513Z",
+                            "updatedAt": "2023-12-12T10:36:41.513Z"
+                        },
+                        {
+                            "id": 1180,
+                            "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fproduct-variants%2F17023774009591695899271538image_picker_DB1074AC-2739-4E3A-9350-AEC5B97B5558-3657-000001644113C40E.jpg?alt=media&token=9b499933-28eb-4d2e-8d59-7a9eb6466f35",
+                            "product_varient_id": null,
+                            "drive_id": null,
+                            "createdAt": "2023-12-12T10:36:41.513Z",
+                            "updatedAt": "2023-12-12T10:36:41.513Z"
+                        }
+                    ]
+                }
+            ],
+            "SubCategories": {
+                "id": 1,
+                "name": "Men's Wear",
+                "deletedAt": null,
+                "createdAt": "2023-09-23T09:31:38.282Z",
+                "updatedAt": "2023-09-23T10:26:41.246Z",
+                "category_id": 8,
+                "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/categories%2Fyoung-man.png?alt=media&token=337ea916-836f-4297-811a-c63365a3d72c"
+            },
+            "SizeChart": null,
+            "notApprovedVariants": 2
+        },
+        {
+            "id": 47,
+            "name": "Anubis Shirt",
+            "type": "OnDemand",
+            "description": "A high quality shirt in all sizes",
+            "sub_category_id": 1,
+            "brand_id": 30,
+            "bosta_size_id": null,
+            "createdAt": "2023-09-28T11:17:55.479Z",
+            "updatedAt": "2023-09-28T11:17:55.479Z",
+            "deletedAt": null,
+            "product_rating": 0,
+            "estimated_days_preparing": 3,
+            "Brands": {
+                "id": 30,
+                "brand_type": "Local",
+                "brand_name": "Meraki",
+                "brand_facebook_page_link": null,
+                "brand_instagram_page_link": "https://instagram.com/meraki.egyp?igshid=NzZhOTFlYzFmZQ==",
+                "brand_website_link": null,
+                "brand_mobile_number": "01222662815",
+                "brand_email_address": "merakiegyp@gmail.com",
+                "tax_id_number": null,
+                "brand_description": "Meraki is a clothing brand that offers the highest quality with the best prices!",
+                "brand_logo_image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fbrands%2F1695803873726image_picker_1D6E11FD-800D-4DF9-A04B-B653DBA896B0-373-000000601671B2F3.png?alt=media&token=2ee6437a-751f-4bbf-8d70-b1fd84a3eafc",
+                "brand_status_id": 2,
+                "brand_store_address_id": null,
+                "brand_category_id": 8,
+                "deletedAt": null,
+                "createdAt": "2023-09-27T08:37:54.329Z",
+                "updatedAt": "2023-12-01T00:00:03.089Z",
+                "brand_seller_id": 43,
+                "brand_id": null,
+                "slash_contract_path": null,
+                "brand_rating": 0,
+                "days_limit_to_return": 14,
+                "planId": null
+            },
+            "ProductVariations": [
+                {
+                    "id": 514,
+                    "product_id": 47,
+                    "price": 250,
+                    "quantity": 10,
+                    "warehouse_id": null,
+                    "is_default": true,
+                    "deletedAt": null,
+                    "createdAt": "2023-12-13T07:15:14.085Z",
+                    "updatedAt": "2023-12-13T07:19:58.067Z",
+                    "product_variation_status_id": 2,
+                    "accepted_by": null,
+                    "ProductStatusLookups": {
+                        "id": 2,
+                        "name": "APPROVED",
+                        "createdAt": "2023-09-12T18:47:56.767Z",
+                        "updatedAt": "2023-09-12T18:47:56.767Z"
+                    },
+                    "ProductVarientImages": [
+                        {
+                            "id": 1283,
+                            "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fproduct-variants%2F17024517136341695899880064image_picker_5608042C-4D26-461D-B093-D917FEB7DFD6-3657-0000016A548ACE5D.jpg?alt=media&token=498f78c6-0eac-4c99-9916-93330a73282a",
+                            "product_varient_id": null,
+                            "drive_id": null,
+                            "createdAt": "2023-12-13T07:15:14.085Z",
+                            "updatedAt": "2023-12-13T07:15:14.085Z"
+                        },
+                        {
+                            "id": 1284,
+                            "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fproduct-variants%2F17024517136351695899880065image_picker_9CC0BA40-4B51-4D50-AA5D-DC8F1978C14C-3657-0000016A5C4108A5.jpg?alt=media&token=71b22549-2399-411a-b731-0b1efb3746bf",
+                            "product_varient_id": null,
+                            "drive_id": "1HVSfeiKcVRsV562Wvz-LOtB-lKKnavCk",
+                            "createdAt": "2023-12-13T07:15:14.085Z",
+                            "updatedAt": "2024-04-04T17:00:52.083Z"
+                        }
+                    ]
+                },
+                {
+                    "id": 512,
+                    "product_id": 47,
+                    "price": 250,
+                    "quantity": 10,
+                    "warehouse_id": null,
+                    "is_default": false,
+                    "deletedAt": null,
+                    "createdAt": "2023-12-13T07:14:12.777Z",
+                    "updatedAt": "2023-12-13T07:19:16.099Z",
+                    "product_variation_status_id": 2,
+                    "accepted_by": null,
+                    "ProductStatusLookups": {
+                        "id": 2,
+                        "name": "APPROVED",
+                        "createdAt": "2023-09-12T18:47:56.767Z",
+                        "updatedAt": "2023-09-12T18:47:56.767Z"
+                    },
+                    "ProductVarientImages": [
+                        {
+                            "id": 1279,
+                            "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fproduct-variants%2F17024516522391695899880064image_picker_5608042C-4D26-461D-B093-D917FEB7DFD6-3657-0000016A548ACE5D.jpg?alt=media&token=d52a1cc8-3ff9-475d-80ae-a464a3880bea",
+                            "product_varient_id": null,
+                            "drive_id": null,
+                            "createdAt": "2023-12-13T07:14:12.777Z",
+                            "updatedAt": "2023-12-13T07:14:12.777Z"
+                        },
+                        {
+                            "id": 1280,
+                            "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fproduct-variants%2F17024516522411695899880065image_picker_9CC0BA40-4B51-4D50-AA5D-DC8F1978C14C-3657-0000016A5C4108A5.jpg?alt=media&token=c51cdaca-acdb-4237-9481-06d2c1c64fb2",
+                            "product_varient_id": null,
+                            "drive_id": null,
+                            "createdAt": "2023-12-13T07:14:12.777Z",
+                            "updatedAt": "2023-12-13T07:14:12.777Z"
+                        }
+                    ]
+                },
+                {
+                    "id": 513,
+                    "product_id": 47,
+                    "price": 250,
+                    "quantity": 10,
+                    "warehouse_id": null,
+                    "is_default": true,
+                    "deletedAt": null,
+                    "createdAt": "2023-12-13T07:14:46.922Z",
+                    "updatedAt": "2023-12-13T07:19:19.654Z",
+                    "product_variation_status_id": 2,
+                    "accepted_by": null,
+                    "ProductStatusLookups": {
+                        "id": 2,
+                        "name": "APPROVED",
+                        "createdAt": "2023-09-12T18:47:56.767Z",
+                        "updatedAt": "2023-09-12T18:47:56.767Z"
+                    },
+                    "ProductVarientImages": [
+                        {
+                            "id": 1281,
+                            "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fproduct-variants%2F17024516861151695899880064image_picker_5608042C-4D26-461D-B093-D917FEB7DFD6-3657-0000016A548ACE5D.jpg?alt=media&token=0b08b617-3548-4465-878d-d1a55831d163",
+                            "product_varient_id": null,
+                            "drive_id": null,
+                            "createdAt": "2023-12-13T07:14:46.922Z",
+                            "updatedAt": "2023-12-13T07:14:46.922Z"
+                        },
+                        {
+                            "id": 1282,
+                            "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fproduct-variants%2F17024516861151695899880065image_picker_9CC0BA40-4B51-4D50-AA5D-DC8F1978C14C-3657-0000016A5C4108A5.jpg?alt=media&token=f97b7a98-8cfc-43fa-a6af-36fb33b8e173",
+                            "product_varient_id": null,
+                            "drive_id": null,
+                            "createdAt": "2023-12-13T07:14:46.922Z",
+                            "updatedAt": "2023-12-13T07:14:46.922Z"
+                        }
+                    ]
+                },
+                {
+                    "id": 65,
+                    "product_id": 47,
+                    "price": 250,
+                    "quantity": 10,
+                    "warehouse_id": null,
+                    "is_default": true,
+                    "deletedAt": null,
+                    "createdAt": "2023-09-28T11:18:00.828Z",
+                    "updatedAt": "2023-10-30T22:24:55.309Z",
+                    "product_variation_status_id": 2,
+                    "accepted_by": null,
+                    "ProductStatusLookups": {
+                        "id": 2,
+                        "name": "APPROVED",
+                        "createdAt": "2023-09-12T18:47:56.767Z",
+                        "updatedAt": "2023-09-12T18:47:56.767Z"
+                    },
+                    "ProductVarientImages": [
+                        {
+                            "id": 80,
+                            "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fproduct-variants%2F1695899880064image_picker_5608042C-4D26-461D-B093-D917FEB7DFD6-3657-0000016A548ACE5D.jpg?alt=media&token=8a7b002a-272a-4903-897b-c368f409aa4c",
+                            "product_varient_id": 65,
+                            "drive_id": "1uQylpkoUT8SskEVgWsT-h6utd9FiZwbF",
+                            "createdAt": "2023-09-28T11:18:00.828Z",
+                            "updatedAt": "2024-04-04T17:00:38.895Z"
+                        },
+                        {
+                            "id": 81,
+                            "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fproduct-variants%2F1695899880065image_picker_9CC0BA40-4B51-4D50-AA5D-DC8F1978C14C-3657-0000016A5C4108A5.jpg?alt=media&token=7e6d8c9a-507c-4340-af6f-8548177ec3e6",
+                            "product_varient_id": 65,
+                            "drive_id": null,
+                            "createdAt": "2023-09-28T11:18:00.828Z",
+                            "updatedAt": "2023-09-28T11:18:00.828Z"
+                        }
+                    ]
+                },
+                {
+                    "id": 516,
+                    "product_id": 47,
+                    "price": 300,
+                    "quantity": 8,
+                    "warehouse_id": null,
+                    "is_default": false,
+                    "deletedAt": null,
+                    "createdAt": "2023-12-13T07:17:31.083Z",
+                    "updatedAt": "2023-12-13T07:19:46.556Z",
+                    "product_variation_status_id": 2,
+                    "accepted_by": null,
+                    "ProductStatusLookups": {
+                        "id": 2,
+                        "name": "APPROVED",
+                        "createdAt": "2023-09-12T18:47:56.767Z",
+                        "updatedAt": "2023-09-12T18:47:56.767Z"
+                    },
+                    "ProductVarientImages": [
+                        {
+                            "id": 1287,
+                            "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fproduct-variants%2F17024518505381695899880064image_picker_5608042C-4D26-461D-B093-D917FEB7DFD6-3657-0000016A548ACE5D.jpg?alt=media&token=f24adb50-5fcd-4e1b-880b-12e0f9ca9817",
+                            "product_varient_id": null,
+                            "drive_id": null,
+                            "createdAt": "2023-12-13T07:17:31.083Z",
+                            "updatedAt": "2023-12-13T07:17:31.083Z"
+                        },
+                        {
+                            "id": 1288,
+                            "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fproduct-variants%2F17024518505391695899880065image_picker_9CC0BA40-4B51-4D50-AA5D-DC8F1978C14C-3657-0000016A5C4108A5.jpg?alt=media&token=d547a6ad-671c-4d59-ae80-bc0f2d86d687",
+                            "product_varient_id": null,
+                            "drive_id": null,
+                            "createdAt": "2023-12-13T07:17:31.083Z",
+                            "updatedAt": "2023-12-13T07:17:31.083Z"
+                        }
+                    ]
+                },
+                {
+                    "id": 66,
+                    "product_id": 47,
+                    "price": 300,
+                    "quantity": 8,
+                    "warehouse_id": null,
+                    "is_default": false,
+                    "deletedAt": null,
+                    "createdAt": "2023-09-28T11:18:40.315Z",
+                    "updatedAt": "2023-10-30T22:24:55.309Z",
+                    "product_variation_status_id": 2,
+                    "accepted_by": null,
+                    "ProductStatusLookups": {
+                        "id": 2,
+                        "name": "APPROVED",
+                        "createdAt": "2023-09-12T18:47:56.767Z",
+                        "updatedAt": "2023-09-12T18:47:56.767Z"
+                    },
+                    "ProductVarientImages": [
+                        {
+                            "id": 82,
+                            "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fproduct-variants%2F1695899919477image_picker_7BFE17E3-BF21-4A6B-8A82-9067B8626E16-3657-0000016B0CED816C.jpg?alt=media&token=126f4df1-6f61-42eb-9fd9-8f3740779a6c",
+                            "product_varient_id": 66,
+                            "drive_id": null,
+                            "createdAt": "2023-09-28T11:18:40.315Z",
+                            "updatedAt": "2023-09-28T11:18:40.315Z"
+                        },
+                        {
+                            "id": 83,
+                            "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fproduct-variants%2F1695899919478image_picker_A4996366-ECDE-4C1B-8DF9-19073F2A6ECB-3657-0000016B133A0A6D.jpg?alt=media&token=3cf388a9-bfc4-4963-aee6-e1736a538876",
+                            "product_varient_id": 66,
+                            "drive_id": null,
+                            "createdAt": "2023-09-28T11:18:40.315Z",
+                            "updatedAt": "2023-09-28T11:18:40.315Z"
+                        }
+                    ]
+                },
+                {
+                    "id": 517,
+                    "product_id": 47,
+                    "price": 300,
+                    "quantity": 8,
+                    "warehouse_id": null,
+                    "is_default": false,
+                    "deletedAt": null,
+                    "createdAt": "2023-12-13T07:18:04.948Z",
+                    "updatedAt": "2023-12-13T07:19:07.051Z",
+                    "product_variation_status_id": 2,
+                    "accepted_by": null,
+                    "ProductStatusLookups": {
+                        "id": 2,
+                        "name": "APPROVED",
+                        "createdAt": "2023-09-12T18:47:56.767Z",
+                        "updatedAt": "2023-09-12T18:47:56.767Z"
+                    },
+                    "ProductVarientImages": [
+                        {
+                            "id": 1289,
+                            "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fproduct-variants%2F17024518842191695899880064image_picker_5608042C-4D26-461D-B093-D917FEB7DFD6-3657-0000016A548ACE5D.jpg?alt=media&token=6510f185-f7b6-49c0-86d8-b6208ebc7436",
+                            "product_varient_id": null,
+                            "drive_id": null,
+                            "createdAt": "2023-12-13T07:18:04.948Z",
+                            "updatedAt": "2023-12-13T07:18:04.948Z"
+                        },
+                        {
+                            "id": 1290,
+                            "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fproduct-variants%2F17024518842201695899880065image_picker_9CC0BA40-4B51-4D50-AA5D-DC8F1978C14C-3657-0000016A5C4108A5.jpg?alt=media&token=2545785a-8445-4d60-b72f-136e5d4aa48e",
+                            "product_varient_id": null,
+                            "drive_id": null,
+                            "createdAt": "2023-12-13T07:18:04.948Z",
+                            "updatedAt": "2023-12-13T07:18:04.948Z"
+                        }
+                    ]
+                },
+                {
+                    "id": 515,
+                    "product_id": 47,
+                    "price": 300,
+                    "quantity": 8,
+                    "warehouse_id": null,
+                    "is_default": false,
+                    "deletedAt": null,
+                    "createdAt": "2023-12-13T07:17:04.521Z",
+                    "updatedAt": "2023-12-13T07:19:23.608Z",
+                    "product_variation_status_id": 2,
+                    "accepted_by": null,
+                    "ProductStatusLookups": {
+                        "id": 2,
+                        "name": "APPROVED",
+                        "createdAt": "2023-09-12T18:47:56.767Z",
+                        "updatedAt": "2023-09-12T18:47:56.767Z"
+                    },
+                    "ProductVarientImages": [
+                        {
+                            "id": 1285,
+                            "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fproduct-variants%2F17024518239491695899880064image_picker_5608042C-4D26-461D-B093-D917FEB7DFD6-3657-0000016A548ACE5D.jpg?alt=media&token=04cfdb60-d2db-4195-a9df-3d664bf0b35b",
+                            "product_varient_id": null,
+                            "drive_id": null,
+                            "createdAt": "2023-12-13T07:17:04.521Z",
+                            "updatedAt": "2023-12-13T07:17:04.521Z"
+                        },
+                        {
+                            "id": 1286,
+                            "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fproduct-variants%2F17024518239501695899880065image_picker_9CC0BA40-4B51-4D50-AA5D-DC8F1978C14C-3657-0000016A5C4108A5.jpg?alt=media&token=2affe1cd-5ca2-403c-8f5c-ca34a11ba8c5",
+                            "product_varient_id": null,
+                            "drive_id": null,
+                            "createdAt": "2023-12-13T07:17:04.521Z",
+                            "updatedAt": "2023-12-13T07:17:04.521Z"
+                        }
+                    ]
+                }
+            ],
+            "SubCategories": {
+                "id": 1,
+                "name": "Men's Wear",
+                "deletedAt": null,
+                "createdAt": "2023-09-23T09:31:38.282Z",
+                "updatedAt": "2023-09-23T10:26:41.246Z",
+                "category_id": 8,
+                "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/categories%2Fyoung-man.png?alt=media&token=337ea916-836f-4297-811a-c63365a3d72c"
+            },
+            "SizeChart": null,
+            "notApprovedVariants": 0
+        },
+        {
+            "id": 49,
+            "name": "Eyes abstract",
+            "type": "OnDemand",
+            "description": "Eye is the most expressive thing of us ",
+            "sub_category_id": 8,
+            "brand_id": 21,
+            "bosta_size_id": null,
+            "createdAt": "2023-10-01T18:55:58.292Z",
+            "updatedAt": "2023-10-01T18:55:58.292Z",
+            "deletedAt": null,
+            "product_rating": 0,
+            "estimated_days_preparing": 1,
+            "Brands": {
+                "id": 21,
+                "brand_type": "Local",
+                "brand_name": "R palette",
+                "brand_facebook_page_link": null,
+                "brand_instagram_page_link": "https://instagram.com/artsy.r_?igshid=MzMyNGUyNmU2YQ==",
+                "brand_website_link": null,
+                "brand_mobile_number": "01064923116",
+                "brand_email_address": "Ranaosama545@gmail.com",
+                "tax_id_number": null,
+                "brand_description": "My brand aims to beautify everything with art . By selling wall art canvases, wood pieces to give life to your home decore , and totebags to take art everywhere with you. ✨",
+                "brand_logo_image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fbrands%2F1695651043846image_picker_BFD50AD8-B1BB-4CA5-943C-A492C7E55823-24601-00000425BF0A3585.png?alt=media&token=d78d151f-226a-42a3-8505-7c56eaf035c4",
+                "brand_status_id": 2,
+                "brand_store_address_id": null,
+                "brand_category_id": 4,
+                "deletedAt": null,
+                "createdAt": "2023-09-25T14:10:45.283Z",
+                "updatedAt": "2023-12-01T00:00:01.991Z",
+                "brand_seller_id": 25,
+                "brand_id": null,
+                "slash_contract_path": null,
+                "brand_rating": 0,
+                "days_limit_to_return": 0,
+                "planId": null
+            },
+            "ProductVariations": [
+                {
+                    "id": 67,
+                    "product_id": 49,
+                    "price": 900,
+                    "quantity": 1,
+                    "warehouse_id": null,
+                    "is_default": true,
+                    "deletedAt": null,
+                    "createdAt": "2023-10-01T18:56:39.506Z",
+                    "updatedAt": "2024-01-02T10:21:13.141Z",
+                    "product_variation_status_id": 2,
+                    "accepted_by": null,
+                    "ProductStatusLookups": {
+                        "id": 2,
+                        "name": "APPROVED",
+                        "createdAt": "2023-09-12T18:47:56.767Z",
+                        "updatedAt": "2023-09-12T18:47:56.767Z"
+                    },
+                    "ProductVarientImages": [
+                        {
+                            "id": 84,
+                            "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fproduct-variants%2F1696186597502image_picker_60022630-09EE-414B-9100-30DA8AF5BE7E-1617-00000059AF3FCE05.jpg?alt=media&token=d678f01a-553b-45f1-b841-1a528ef60f48",
+                            "product_varient_id": 67,
+                            "drive_id": null,
+                            "createdAt": "2023-10-01T18:56:39.506Z",
+                            "updatedAt": "2023-10-01T18:56:39.506Z"
+                        },
+                        {
+                            "id": 85,
+                            "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fproduct-variants%2F1696186597503image_picker_2D7C92A8-CB32-429A-9A08-A5714701E36A-1617-00000059B8C90F3D.jpg?alt=media&token=b79bd514-3c21-4296-ae80-d46cc8a13c83",
+                            "product_varient_id": 67,
+                            "drive_id": null,
+                            "createdAt": "2023-10-01T18:56:39.506Z",
+                            "updatedAt": "2023-10-01T18:56:39.506Z"
+                        },
+                        {
+                            "id": 86,
+                            "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fproduct-variants%2F1696186597504image_picker_AD65F822-6363-4D0C-97FF-C1D5BA2C74F7-1617-0000005A2FF2B368.jpg?alt=media&token=66966d5b-a164-4d2b-bcd0-2c8f5f72aad3",
+                            "product_varient_id": 67,
+                            "drive_id": null,
+                            "createdAt": "2023-10-01T18:56:39.506Z",
+                            "updatedAt": "2023-10-01T18:56:39.506Z"
+                        }
+                    ]
+                }
+            ],
+            "SubCategories": {
+                "id": 8,
+                "name": "Drawings",
+                "deletedAt": null,
+                "createdAt": "2023-09-23T09:58:10.346Z",
+                "updatedAt": "2023-09-23T09:54:31.865Z",
+                "category_id": 4,
+                "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/categories%2Fcanvas.png?alt=media&token=348aae1e-d4df-43f5-9d48-c50dbf5abb26"
+            },
+            "SizeChart": null,
+            "notApprovedVariants": 0
+        },
+        {
+            "id": 50,
+            "name": "Sunset",
+            "type": "OnDemand",
+            "description": "A scene of sunset with trees ",
+            "sub_category_id": 8,
+            "brand_id": 21,
+            "bosta_size_id": null,
+            "createdAt": "2023-10-01T19:04:01.424Z",
+            "updatedAt": "2023-10-01T19:04:01.424Z",
+            "deletedAt": null,
+            "product_rating": 0,
+            "estimated_days_preparing": 1,
+            "Brands": {
+                "id": 21,
+                "brand_type": "Local",
+                "brand_name": "R palette",
+                "brand_facebook_page_link": null,
+                "brand_instagram_page_link": "https://instagram.com/artsy.r_?igshid=MzMyNGUyNmU2YQ==",
+                "brand_website_link": null,
+                "brand_mobile_number": "01064923116",
+                "brand_email_address": "Ranaosama545@gmail.com",
+                "tax_id_number": null,
+                "brand_description": "My brand aims to beautify everything with art . By selling wall art canvases, wood pieces to give life to your home decore , and totebags to take art everywhere with you. ✨",
+                "brand_logo_image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fbrands%2F1695651043846image_picker_BFD50AD8-B1BB-4CA5-943C-A492C7E55823-24601-00000425BF0A3585.png?alt=media&token=d78d151f-226a-42a3-8505-7c56eaf035c4",
+                "brand_status_id": 2,
+                "brand_store_address_id": null,
+                "brand_category_id": 4,
+                "deletedAt": null,
+                "createdAt": "2023-09-25T14:10:45.283Z",
+                "updatedAt": "2023-12-01T00:00:01.991Z",
+                "brand_seller_id": 25,
+                "brand_id": null,
+                "slash_contract_path": null,
+                "brand_rating": 0,
+                "days_limit_to_return": 0,
+                "planId": null
+            },
+            "ProductVariations": [
+                {
+                    "id": 68,
+                    "product_id": 50,
+                    "price": 250,
+                    "quantity": 1,
+                    "warehouse_id": null,
+                    "is_default": true,
+                    "deletedAt": null,
+                    "createdAt": "2023-10-01T19:04:29.552Z",
+                    "updatedAt": "2023-10-30T22:24:55.309Z",
+                    "product_variation_status_id": 2,
+                    "accepted_by": null,
+                    "ProductStatusLookups": {
+                        "id": 2,
+                        "name": "APPROVED",
+                        "createdAt": "2023-09-12T18:47:56.767Z",
+                        "updatedAt": "2023-09-12T18:47:56.767Z"
+                    },
+                    "ProductVarientImages": [
+                        {
+                            "id": 87,
+                            "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fproduct-variants%2F1696187068506image_picker_16B52EB1-954B-40DC-90B5-E7E16E3A0F45-1617-0000005C83BB0987.jpg?alt=media&token=67bd5bd6-5eee-4819-9cf6-21ab96b3d34c",
+                            "product_varient_id": 68,
+                            "drive_id": null,
+                            "createdAt": "2023-10-01T19:04:29.552Z",
+                            "updatedAt": "2023-10-01T19:04:29.552Z"
+                        },
+                        {
+                            "id": 88,
+                            "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fproduct-variants%2F1696187068506image_picker_B4A56828-1417-411E-A684-838600AEAF0D-1617-0000005C5B53D66F.jpg?alt=media&token=c8f03fcb-c92d-4748-801a-5d6bf764172c",
+                            "product_varient_id": 68,
+                            "drive_id": null,
+                            "createdAt": "2023-10-01T19:04:29.552Z",
+                            "updatedAt": "2023-10-01T19:04:29.552Z"
+                        },
+                        {
+                            "id": 89,
+                            "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fproduct-variants%2F1696187068508image_picker_712D0857-6EB5-4820-A6C7-7E803AEA5E68-1617-0000005CF842DCF9.jpg?alt=media&token=05fdfcd3-2374-4995-9794-af44d244f453",
+                            "product_varient_id": 68,
+                            "drive_id": null,
+                            "createdAt": "2023-10-01T19:04:29.552Z",
+                            "updatedAt": "2023-10-01T19:04:29.552Z"
+                        }
+                    ]
+                }
+            ],
+            "SubCategories": {
+                "id": 8,
+                "name": "Drawings",
+                "deletedAt": null,
+                "createdAt": "2023-09-23T09:58:10.346Z",
+                "updatedAt": "2023-09-23T09:54:31.865Z",
+                "category_id": 4,
+                "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/categories%2Fcanvas.png?alt=media&token=348aae1e-d4df-43f5-9d48-c50dbf5abb26"
+            },
+            "SizeChart": null,
+            "notApprovedVariants": 0
+        },
+        {
+            "id": 57,
+            "name": "macrame wooden frame",
+            "type": "OnDemand",
+            "description": "Square wooden frame 42 cm * 42 cm \nMade of 100% cotton cords, wooden frame\nEasy to hang \n\nOrder takes 7 to 10 working days to be delivered as it's a pre-order product.\n\nProduct may vary a little as it's a handmade product and each piece is a unique one.",
+            "sub_category_id": 9,
+            "brand_id": 15,
+            "bosta_size_id": null,
+            "createdAt": "2023-10-06T07:49:07.659Z",
+            "updatedAt": "2023-10-06T07:49:07.659Z",
+            "deletedAt": null,
+            "product_rating": 0,
+            "estimated_days_preparing": 10,
+            "Brands": {
+                "id": 15,
+                "brand_type": "Local",
+                "brand_name": "Tassels",
+                "brand_facebook_page_link": "https://www.facebook.com/profile.php?id=100083434956478&mibextid=LQQJ4d",
+                "brand_instagram_page_link": "https://instagram.com/tassels.eg?igshid=OGQ5ZDc2ODk2ZA==",
+                "brand_website_link": "https://www.tassels-eg.com/en/home",
+                "brand_mobile_number": "01001423150",
+                "brand_email_address": "tassels.eg@gmail.com",
+                "tax_id_number": null,
+                "brand_description": "macrame art",
+                "brand_logo_image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fbrands%2F1695465676086image_picker_236F0924-0F0D-410D-9317-EC88FEC5E9B9-31877-0000033F4E46F568.png?alt=media&token=8116a469-133c-490b-a95b-14789204ea5e",
+                "brand_status_id": 2,
+                "brand_store_address_id": null,
+                "brand_category_id": 9,
+                "deletedAt": null,
+                "createdAt": "2023-09-23T10:41:18.382Z",
+                "updatedAt": "2023-12-01T00:00:02.492Z",
+                "brand_seller_id": 30,
+                "brand_id": null,
+                "slash_contract_path": null,
+                "brand_rating": 0,
+                "days_limit_to_return": 3,
+                "planId": null
+            },
+            "ProductVariations": [
+                {
+                    "id": 76,
+                    "product_id": 57,
+                    "price": 550,
+                    "quantity": 4,
+                    "warehouse_id": null,
+                    "is_default": true,
+                    "deletedAt": null,
+                    "createdAt": "2023-10-06T07:49:18.439Z",
+                    "updatedAt": "2023-10-30T22:24:55.309Z",
+                    "product_variation_status_id": 2,
+                    "accepted_by": null,
+                    "ProductStatusLookups": {
+                        "id": 2,
+                        "name": "APPROVED",
+                        "createdAt": "2023-09-12T18:47:56.767Z",
+                        "updatedAt": "2023-09-12T18:47:56.767Z"
+                    },
+                    "ProductVarientImages": [
+                        {
+                            "id": 101,
+                            "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fproduct-variants%2F1696578554969image_picker_3E7BE513-DCF7-414C-BC97-58476F998F7F-1295-0000004EBCEEB9F9.jpg?alt=media&token=41f20205-25cb-4164-9709-8317be7a3417",
+                            "product_varient_id": 76,
+                            "drive_id": null,
+                            "createdAt": "2023-10-06T07:49:18.439Z",
+                            "updatedAt": "2023-10-06T07:49:18.439Z"
+                        },
+                        {
+                            "id": 102,
+                            "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fproduct-variants%2F1696578554971image_picker_144F8916-0C4D-4F36-9CA2-F8B4A7A64762-1295-0000004ECB2D43FF.jpg?alt=media&token=8e41faa7-22c9-4fb7-b312-71cf0feb4a42",
+                            "product_varient_id": 76,
+                            "drive_id": null,
+                            "createdAt": "2023-10-06T07:49:18.439Z",
+                            "updatedAt": "2023-10-06T07:49:18.439Z"
+                        },
+                        {
+                            "id": 103,
+                            "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fproduct-variants%2F1696578554971image_picker_8E62CA5A-327C-42A2-8D38-E284E117B5A9-1295-0000004ED5790067.jpg?alt=media&token=0c0d226d-24b7-4dbf-93b5-fc9e144a0870",
+                            "product_varient_id": 76,
+                            "drive_id": null,
+                            "createdAt": "2023-10-06T07:49:18.439Z",
+                            "updatedAt": "2023-10-06T07:49:18.439Z"
+                        }
+                    ]
+                }
+            ],
+            "SubCategories": {
+                "id": 9,
+                "name": "Decor",
+                "deletedAt": null,
+                "createdAt": "2023-09-23T09:58:10.346Z",
+                "updatedAt": "2023-09-23T09:55:41.385Z",
+                "category_id": 9,
+                "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/categories%2Fshelf.png?alt=media&token=45d2c4b0-b62d-4e71-a47f-a1ea7cc0f3ff"
+            },
+            "SizeChart": null,
+            "notApprovedVariants": 0
+        },
+        {
+            "id": 58,
+            "name": "macrame mirror",
+            "type": "OnDemand",
+            "description": "Diameter 35 cm, with the macrame frame added about 65 cm.\nMade of 100% cotton cords, a mirror.\nEasy to hang.\n\nOrder takes 7 to 10 working days to be delivered as it's a pre-order product.\n\nProduct may vary a little as it's a handmade product and each piece is a unique one.",
+            "sub_category_id": 9,
+            "brand_id": 15,
+            "bosta_size_id": null,
+            "createdAt": "2023-10-06T07:59:04.759Z",
+            "updatedAt": "2023-10-06T07:59:04.759Z",
+            "deletedAt": null,
+            "product_rating": 0,
+            "estimated_days_preparing": 10,
+            "Brands": {
+                "id": 15,
+                "brand_type": "Local",
+                "brand_name": "Tassels",
+                "brand_facebook_page_link": "https://www.facebook.com/profile.php?id=100083434956478&mibextid=LQQJ4d",
+                "brand_instagram_page_link": "https://instagram.com/tassels.eg?igshid=OGQ5ZDc2ODk2ZA==",
+                "brand_website_link": "https://www.tassels-eg.com/en/home",
+                "brand_mobile_number": "01001423150",
+                "brand_email_address": "tassels.eg@gmail.com",
+                "tax_id_number": null,
+                "brand_description": "macrame art",
+                "brand_logo_image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fbrands%2F1695465676086image_picker_236F0924-0F0D-410D-9317-EC88FEC5E9B9-31877-0000033F4E46F568.png?alt=media&token=8116a469-133c-490b-a95b-14789204ea5e",
+                "brand_status_id": 2,
+                "brand_store_address_id": null,
+                "brand_category_id": 9,
+                "deletedAt": null,
+                "createdAt": "2023-09-23T10:41:18.382Z",
+                "updatedAt": "2023-12-01T00:00:02.492Z",
+                "brand_seller_id": 30,
+                "brand_id": null,
+                "slash_contract_path": null,
+                "brand_rating": 0,
+                "days_limit_to_return": 3,
+                "planId": null
+            },
+            "ProductVariations": [
+                {
+                    "id": 77,
+                    "product_id": 58,
+                    "price": 620,
+                    "quantity": 3,
+                    "warehouse_id": null,
+                    "is_default": true,
+                    "deletedAt": null,
+                    "createdAt": "2023-10-06T07:59:13.015Z",
+                    "updatedAt": "2023-10-30T22:24:55.309Z",
+                    "product_variation_status_id": 2,
+                    "accepted_by": null,
+                    "ProductStatusLookups": {
+                        "id": 2,
+                        "name": "APPROVED",
+                        "createdAt": "2023-09-12T18:47:56.767Z",
+                        "updatedAt": "2023-09-12T18:47:56.767Z"
+                    },
+                    "ProductVarientImages": [
+                        {
+                            "id": 104,
+                            "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fproduct-variants%2F1696579151583image_picker_F0A91236-DC5E-4952-AF39-132C385118E0-1295-00000051E422069B.jpg?alt=media&token=77447978-c699-42fe-8de5-42cdb533f7fb",
+                            "product_varient_id": 77,
+                            "drive_id": null,
+                            "createdAt": "2023-10-06T07:59:13.015Z",
+                            "updatedAt": "2023-10-06T07:59:13.015Z"
+                        },
+                        {
+                            "id": 105,
+                            "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fproduct-variants%2F1696579151595image_picker_C35B6690-1C7E-4DC8-B158-2129765BBF4B-1295-00000051F8113567.jpg?alt=media&token=1b51c61e-4858-4466-b5be-ac885168b6bc",
+                            "product_varient_id": 77,
+                            "drive_id": null,
+                            "createdAt": "2023-10-06T07:59:13.015Z",
+                            "updatedAt": "2023-10-06T07:59:13.015Z"
+                        },
+                        {
+                            "id": 106,
+                            "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fproduct-variants%2F1696579151598image_picker_ABBB9ADA-3D0D-4FD1-BFA3-9590B7DB9539-1295-0000005204D8BE2E.jpg?alt=media&token=13f519ad-ab40-46b8-bdcd-5cdce9164dfa",
+                            "product_varient_id": 77,
+                            "drive_id": null,
+                            "createdAt": "2023-10-06T07:59:13.015Z",
+                            "updatedAt": "2023-10-06T07:59:13.015Z"
+                        }
+                    ]
+                },
+                {
+                    "id": 79,
+                    "product_id": 58,
+                    "price": 520,
+                    "quantity": 3,
+                    "warehouse_id": null,
+                    "is_default": false,
+                    "deletedAt": null,
+                    "createdAt": "2023-10-06T08:02:48.711Z",
+                    "updatedAt": "2023-10-30T22:24:55.309Z",
+                    "product_variation_status_id": 2,
+                    "accepted_by": null,
+                    "ProductStatusLookups": {
+                        "id": 2,
+                        "name": "APPROVED",
+                        "createdAt": "2023-09-12T18:47:56.767Z",
+                        "updatedAt": "2023-09-12T18:47:56.767Z"
+                    },
+                    "ProductVarientImages": [
+                        {
+                            "id": 110,
+                            "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fproduct-variants%2F1696579367301image_picker_F87BDE50-613B-4BE0-9C31-3DDEACC345CD-1295-000000534600B4D5.jpg?alt=media&token=5e73dcec-e8ae-499f-879a-6addb9783557",
+                            "product_varient_id": 79,
+                            "drive_id": null,
+                            "createdAt": "2023-10-06T08:02:48.711Z",
+                            "updatedAt": "2023-10-06T08:02:48.711Z"
+                        },
+                        {
+                            "id": 111,
+                            "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fproduct-variants%2F1696579367302image_picker_5FE94B8F-C047-4E16-9674-1CAE28DF4CB8-1295-0000005352EB3CFB.jpg?alt=media&token=615990cc-3505-43db-82d0-d8873bfcef58",
+                            "product_varient_id": 79,
+                            "drive_id": null,
+                            "createdAt": "2023-10-06T08:02:48.711Z",
+                            "updatedAt": "2023-10-06T08:02:48.711Z"
+                        },
+                        {
+                            "id": 112,
+                            "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fproduct-variants%2F1696579367302image_picker_8AABFBB3-EDC6-4174-B429-ACC7A1D72999-1295-0000005357F9528F.jpg?alt=media&token=62e0c592-b271-4ff8-8eb5-b1c9b4a835e2",
+                            "product_varient_id": 79,
+                            "drive_id": null,
+                            "createdAt": "2023-10-06T08:02:48.711Z",
+                            "updatedAt": "2023-10-06T08:02:48.711Z"
+                        }
+                    ]
+                }
+            ],
+            "SubCategories": {
+                "id": 9,
+                "name": "Decor",
+                "deletedAt": null,
+                "createdAt": "2023-09-23T09:58:10.346Z",
+                "updatedAt": "2023-09-23T09:55:41.385Z",
+                "category_id": 9,
+                "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/categories%2Fshelf.png?alt=media&token=45d2c4b0-b62d-4e71-a47f-a1ea7cc0f3ff"
+            },
+            "SizeChart": null,
+            "notApprovedVariants": 0
+        },
+        {
+            "id": 60,
+            "name": "macrame wall hanging",
+            "type": "OnDemand",
+            "description": "Width 120 cm \nmade of 100% cotton cords, wooden bar.\n\norder takes 15 to 20 working days to be delivered as it's a pre-order product.\nGently adjust the cotton cords with your hands by brushing through the cords with your fingers.\n\nProduct may vary a little as it's a handmade product and each piece is a unique one.",
+            "sub_category_id": 9,
+            "brand_id": 15,
+            "bosta_size_id": null,
+            "createdAt": "2023-10-06T08:18:49.839Z",
+            "updatedAt": "2023-10-06T08:18:49.839Z",
+            "deletedAt": null,
+            "product_rating": 0,
+            "estimated_days_preparing": 20,
+            "Brands": {
+                "id": 15,
+                "brand_type": "Local",
+                "brand_name": "Tassels",
+                "brand_facebook_page_link": "https://www.facebook.com/profile.php?id=100083434956478&mibextid=LQQJ4d",
+                "brand_instagram_page_link": "https://instagram.com/tassels.eg?igshid=OGQ5ZDc2ODk2ZA==",
+                "brand_website_link": "https://www.tassels-eg.com/en/home",
+                "brand_mobile_number": "01001423150",
+                "brand_email_address": "tassels.eg@gmail.com",
+                "tax_id_number": null,
+                "brand_description": "macrame art",
+                "brand_logo_image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fbrands%2F1695465676086image_picker_236F0924-0F0D-410D-9317-EC88FEC5E9B9-31877-0000033F4E46F568.png?alt=media&token=8116a469-133c-490b-a95b-14789204ea5e",
+                "brand_status_id": 2,
+                "brand_store_address_id": null,
+                "brand_category_id": 9,
+                "deletedAt": null,
+                "createdAt": "2023-09-23T10:41:18.382Z",
+                "updatedAt": "2023-12-01T00:00:02.492Z",
+                "brand_seller_id": 30,
+                "brand_id": null,
+                "slash_contract_path": null,
+                "brand_rating": 0,
+                "days_limit_to_return": 3,
+                "planId": null
+            },
+            "ProductVariations": [
+                {
+                    "id": 80,
+                    "product_id": 60,
+                    "price": 1000,
+                    "quantity": 5,
+                    "warehouse_id": null,
+                    "is_default": true,
+                    "deletedAt": null,
+                    "createdAt": "2023-10-06T08:18:56.200Z",
+                    "updatedAt": "2023-10-30T22:24:55.309Z",
+                    "product_variation_status_id": 2,
+                    "accepted_by": null,
+                    "ProductStatusLookups": {
+                        "id": 2,
+                        "name": "APPROVED",
+                        "createdAt": "2023-09-12T18:47:56.767Z",
+                        "updatedAt": "2023-09-12T18:47:56.767Z"
+                    },
+                    "ProductVarientImages": [
+                        {
+                            "id": 113,
+                            "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fproduct-variants%2F1696580335424image_picker_CB533304-F053-4936-A069-04DCCB544E73-4244-00000057CB65B89C.jpg?alt=media&token=3eeacbfa-57b5-4331-bfbd-8c83c50228d3",
+                            "product_varient_id": 80,
+                            "drive_id": null,
+                            "createdAt": "2023-10-06T08:18:56.200Z",
+                            "updatedAt": "2023-10-06T08:18:56.200Z"
+                        },
+                        {
+                            "id": 114,
+                            "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fproduct-variants%2F1696580335425image_picker_10E58608-892E-4B6C-B4DB-F6C9D2C41C74-4244-000000580BA0DEBD.jpg?alt=media&token=03cd54af-7918-42d1-ad28-68d535a13f34",
+                            "product_varient_id": 80,
+                            "drive_id": null,
+                            "createdAt": "2023-10-06T08:18:56.200Z",
+                            "updatedAt": "2023-10-06T08:18:56.200Z"
+                        },
+                        {
+                            "id": 115,
+                            "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fproduct-variants%2F1696580335426image_picker_5DF52883-B035-498B-9BF1-33F63750F0BE-4244-000000583834B1F5.jpg?alt=media&token=773d3047-58b4-44ba-a220-466df063f1ac",
+                            "product_varient_id": 80,
+                            "drive_id": null,
+                            "createdAt": "2023-10-06T08:18:56.200Z",
+                            "updatedAt": "2023-10-06T08:18:56.200Z"
+                        }
+                    ]
+                }
+            ],
+            "SubCategories": {
+                "id": 9,
+                "name": "Decor",
+                "deletedAt": null,
+                "createdAt": "2023-09-23T09:58:10.346Z",
+                "updatedAt": "2023-09-23T09:55:41.385Z",
+                "category_id": 9,
+                "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/categories%2Fshelf.png?alt=media&token=45d2c4b0-b62d-4e71-a47f-a1ea7cc0f3ff"
+            },
+            "SizeChart": null,
+            "notApprovedVariants": 0
+        },
+        {
+            "id": 61,
+            "name": "macrame 70 cm shelf",
+            "type": "OnDemand",
+            "description": "Shelf Width 70 cm\nMade of 100% cotton cords, wooden bar, wooden shelf\n\nOrder takes 7 to 10 working days to be delivered as it's a pre-order product.\n\nGently adjust the cotton cords with your hands by brushing through the cords with your fingers.\nProduct may vary a little as it's a handmade product and each piece is a unique one.",
+            "sub_category_id": 9,
+            "brand_id": 15,
+            "bosta_size_id": null,
+            "createdAt": "2023-10-06T08:51:11.766Z",
+            "updatedAt": "2023-10-06T08:51:11.766Z",
+            "deletedAt": null,
+            "product_rating": 0,
+            "estimated_days_preparing": 10,
+            "Brands": {
+                "id": 15,
+                "brand_type": "Local",
+                "brand_name": "Tassels",
+                "brand_facebook_page_link": "https://www.facebook.com/profile.php?id=100083434956478&mibextid=LQQJ4d",
+                "brand_instagram_page_link": "https://instagram.com/tassels.eg?igshid=OGQ5ZDc2ODk2ZA==",
+                "brand_website_link": "https://www.tassels-eg.com/en/home",
+                "brand_mobile_number": "01001423150",
+                "brand_email_address": "tassels.eg@gmail.com",
+                "tax_id_number": null,
+                "brand_description": "macrame art",
+                "brand_logo_image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fbrands%2F1695465676086image_picker_236F0924-0F0D-410D-9317-EC88FEC5E9B9-31877-0000033F4E46F568.png?alt=media&token=8116a469-133c-490b-a95b-14789204ea5e",
+                "brand_status_id": 2,
+                "brand_store_address_id": null,
+                "brand_category_id": 9,
+                "deletedAt": null,
+                "createdAt": "2023-09-23T10:41:18.382Z",
+                "updatedAt": "2023-12-01T00:00:02.492Z",
+                "brand_seller_id": 30,
+                "brand_id": null,
+                "slash_contract_path": null,
+                "brand_rating": 0,
+                "days_limit_to_return": 3,
+                "planId": null
+            },
+            "ProductVariations": [
+                {
+                    "id": 81,
+                    "product_id": 61,
+                    "price": 800,
+                    "quantity": 4,
+                    "warehouse_id": null,
+                    "is_default": true,
+                    "deletedAt": null,
+                    "createdAt": "2023-10-06T08:51:16.618Z",
+                    "updatedAt": "2023-10-30T22:24:55.309Z",
+                    "product_variation_status_id": 2,
+                    "accepted_by": null,
+                    "ProductStatusLookups": {
+                        "id": 2,
+                        "name": "APPROVED",
+                        "createdAt": "2023-09-12T18:47:56.767Z",
+                        "updatedAt": "2023-09-12T18:47:56.767Z"
+                    },
+                    "ProductVarientImages": [
+                        {
+                            "id": 116,
+                            "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fproduct-variants%2F1696582275448image_picker_32367DCD-F0D3-4D1C-A866-588DFA717B3B-4708-00000060FD6C585F.jpg?alt=media&token=f7270391-8c41-41e5-9c0a-2e426e57a773",
+                            "product_varient_id": 81,
+                            "drive_id": null,
+                            "createdAt": "2023-10-06T08:51:16.618Z",
+                            "updatedAt": "2023-10-06T08:51:16.618Z"
+                        },
+                        {
+                            "id": 117,
+                            "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fproduct-variants%2F1696582275449image_picker_9A3CF65A-53E8-47C9-A056-14DA33B12E89-4708-000000623820559E.jpg?alt=media&token=7c1b1297-d4d2-4996-a4dc-7336e46caea6",
+                            "product_varient_id": 81,
+                            "drive_id": null,
+                            "createdAt": "2023-10-06T08:51:16.618Z",
+                            "updatedAt": "2023-10-06T08:51:16.618Z"
+                        },
+                        {
+                            "id": 118,
+                            "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fproduct-variants%2F1696582275450image_picker_A573AD88-93D6-4C03-B661-47933E541F04-4708-00000062E7CAE43C.jpg?alt=media&token=f1c68a4e-b73b-418d-bb9e-e9ebe27b063b",
+                            "product_varient_id": 81,
+                            "drive_id": null,
+                            "createdAt": "2023-10-06T08:51:16.618Z",
+                            "updatedAt": "2023-10-06T08:51:16.618Z"
+                        }
+                    ]
+                }
+            ],
+            "SubCategories": {
+                "id": 9,
+                "name": "Decor",
+                "deletedAt": null,
+                "createdAt": "2023-09-23T09:58:10.346Z",
+                "updatedAt": "2023-09-23T09:55:41.385Z",
+                "category_id": 9,
+                "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/categories%2Fshelf.png?alt=media&token=45d2c4b0-b62d-4e71-a47f-a1ea7cc0f3ff"
+            },
+            "SizeChart": null,
+            "notApprovedVariants": 0
+        },
+        {
+            "id": 62,
+            "name": "tissue box",
+            "type": "OnDemand",
+            "description": "Width 27 cm, Length 16 cm, Height 9 cm\nmade of 100% cotton cords, metal frame.\n\nOrder takes 10 to 15 working days to be delivered as it's a pre-order product.\n\nProduct may vary a little as it's a handmade product and each piece is a unique one.",
+            "sub_category_id": 9,
+            "brand_id": 15,
+            "bosta_size_id": null,
+            "createdAt": "2023-10-06T09:01:02.102Z",
+            "updatedAt": "2023-10-06T09:01:02.102Z",
+            "deletedAt": null,
+            "product_rating": 0,
+            "estimated_days_preparing": 15,
+            "Brands": {
+                "id": 15,
+                "brand_type": "Local",
+                "brand_name": "Tassels",
+                "brand_facebook_page_link": "https://www.facebook.com/profile.php?id=100083434956478&mibextid=LQQJ4d",
+                "brand_instagram_page_link": "https://instagram.com/tassels.eg?igshid=OGQ5ZDc2ODk2ZA==",
+                "brand_website_link": "https://www.tassels-eg.com/en/home",
+                "brand_mobile_number": "01001423150",
+                "brand_email_address": "tassels.eg@gmail.com",
+                "tax_id_number": null,
+                "brand_description": "macrame art",
+                "brand_logo_image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fbrands%2F1695465676086image_picker_236F0924-0F0D-410D-9317-EC88FEC5E9B9-31877-0000033F4E46F568.png?alt=media&token=8116a469-133c-490b-a95b-14789204ea5e",
+                "brand_status_id": 2,
+                "brand_store_address_id": null,
+                "brand_category_id": 9,
+                "deletedAt": null,
+                "createdAt": "2023-09-23T10:41:18.382Z",
+                "updatedAt": "2023-12-01T00:00:02.492Z",
+                "brand_seller_id": 30,
+                "brand_id": null,
+                "slash_contract_path": null,
+                "brand_rating": 0,
+                "days_limit_to_return": 3,
+                "planId": null
+            },
+            "ProductVariations": [
+                {
+                    "id": 82,
+                    "product_id": 62,
+                    "price": 540,
+                    "quantity": 4,
+                    "warehouse_id": null,
+                    "is_default": true,
+                    "deletedAt": null,
+                    "createdAt": "2023-10-06T09:01:04.000Z",
+                    "updatedAt": "2023-10-30T22:24:55.309Z",
+                    "product_variation_status_id": 2,
+                    "accepted_by": null,
+                    "ProductStatusLookups": {
+                        "id": 2,
+                        "name": "APPROVED",
+                        "createdAt": "2023-09-12T18:47:56.767Z",
+                        "updatedAt": "2023-09-12T18:47:56.767Z"
+                    },
+                    "ProductVarientImages": [
+                        {
+                            "id": 119,
+                            "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fproduct-variants%2F1696582863259image_picker_15E0BD0E-83D0-4135-BDCF-D3C1D7342C85-4708-0000006561A7AF29.jpg?alt=media&token=8f64a2ea-6909-48d4-95d7-db46156aadf3",
+                            "product_varient_id": 82,
+                            "drive_id": null,
+                            "createdAt": "2023-10-06T09:01:04.000Z",
+                            "updatedAt": "2023-10-06T09:01:04.000Z"
+                        },
+                        {
+                            "id": 120,
+                            "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fproduct-variants%2F1696582863259image_picker_4A5E49AE-E0DE-46E4-A35D-77DC0FEE06C4-4708-000000659E2944E4.jpg?alt=media&token=7ef8df9c-6524-4abc-9699-a092298329a6",
+                            "product_varient_id": 82,
+                            "drive_id": null,
+                            "createdAt": "2023-10-06T09:01:04.000Z",
+                            "updatedAt": "2023-10-06T09:01:04.000Z"
+                        },
+                        {
+                            "id": 121,
+                            "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/images%2Fproduct-variants%2F1696582863260image_picker_2A66F3D5-BE36-4DC4-94C4-B9F15BF83909-4708-000000666BC5DCE1.jpg?alt=media&token=e6116706-f558-4d43-895b-55dc271d9d0e",
+                            "product_varient_id": 82,
+                            "drive_id": null,
+                            "createdAt": "2023-10-06T09:01:04.000Z",
+                            "updatedAt": "2023-10-06T09:01:04.000Z"
+                        }
+                    ]
+                }
+            ],
+            "SubCategories": {
+                "id": 9,
+                "name": "Decor",
+                "deletedAt": null,
+                "createdAt": "2023-09-23T09:58:10.346Z",
+                "updatedAt": "2023-09-23T09:55:41.385Z",
+                "category_id": 9,
+                "image_path": "https://firebasestorage.googleapis.com/v0/b/slash-d7546.appspot.com/o/categories%2Fshelf.png?alt=media&token=45d2c4b0-b62d-4e71-a47f-a1ea7cc0f3ff"
+            },
+            "SizeChart": null,
+            "notApprovedVariants": 0
+        }
+    ]
+}

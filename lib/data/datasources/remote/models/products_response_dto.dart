@@ -1,12 +1,11 @@
 import 'package:slash/data/datasources/remote/models/pagination.dart';
 import 'package:slash/data/datasources/remote/models/product_data_dto.dart';
 
-class  ProductsResponseDto{
-
+class ProductsResponseDto {
   int? statusCode;
   String? message;
   Pagination? pagination;
-  List<ProductData?>? data;
+  List<ProductData>? data;
 
   ProductsResponseDto({
     this.statusCode,
@@ -17,14 +16,16 @@ class  ProductsResponseDto{
   ProductsResponseDto.fromJson(Map<String, dynamic> json) {
     statusCode = json['statusCode']?.toInt();
     message = json['message']?.toString();
-    pagination = (json['pagination'] != null) ? Pagination.fromJson(json['pagination']) : null;
+    pagination = (json['pagination'] != null)
+        ? Pagination.fromJson(json['pagination'])
+        : null;
     if (json['data'] != null) {
       final v = json['data'];
       final arr0 = <ProductData>[];
       v.forEach((v) {
         arr0.add(ProductData.fromJson(v));
       });
-      this.data = arr0;
+      data = arr0;
     }
   }
 

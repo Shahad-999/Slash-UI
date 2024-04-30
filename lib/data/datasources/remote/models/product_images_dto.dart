@@ -1,12 +1,13 @@
+import 'package:equatable/equatable.dart';
 
-class ProductVarientImages {
+class ProductVarientImages extends Equatable {
   final int? id;
   final String? imagePath;
   final int? productVarientId;
   final String? createdAt;
   final String? updatedAt;
 
-  ProductVarientImages({
+  const ProductVarientImages({
     this.id,
     this.imagePath,
     this.productVarientId,
@@ -22,10 +23,19 @@ class ProductVarientImages {
         updatedAt = json['updatedAt'] as String?;
 
   Map<String, dynamic> toJson() => {
-    'id' : id,
-    'image_path' : imagePath,
-    'product_varient_id' : productVarientId,
-    'createdAt' : createdAt,
-    'updatedAt' : updatedAt
-  };
+        'id': id,
+        'image_path': imagePath,
+        'product_varient_id': productVarientId,
+        'createdAt': createdAt,
+        'updatedAt': updatedAt
+      };
+
+  @override
+  List<Object?> get props => [
+        id,
+        imagePath,
+        productVarientId,
+        createdAt,
+        updatedAt,
+      ];
 }

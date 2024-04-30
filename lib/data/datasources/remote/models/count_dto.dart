@@ -1,7 +1,9 @@
-class CountDto {
+import 'package:equatable/equatable.dart';
+
+class CountDto extends Equatable {
   final int? productVariations;
 
-  CountDto({
+  const CountDto({
     this.productVariations,
   });
 
@@ -9,4 +11,9 @@ class CountDto {
       : productVariations = json['ProductVariations'] as int?;
 
   Map<String, dynamic> toJson() => {'ProductVariations': productVariations};
+
+  @override
+  List<Object?> get props => [
+        productVariations,
+      ];
 }

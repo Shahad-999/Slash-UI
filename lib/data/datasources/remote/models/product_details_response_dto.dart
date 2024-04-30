@@ -1,12 +1,13 @@
+import 'package:equatable/equatable.dart';
 import 'package:slash/data/datasources/remote/models/product_details_data_dto.dart';
 import 'package:slash/domain/models/product_details.dart';
 
-class ProductDetailsResponseDto {
+class ProductDetailsResponseDto extends Equatable {
   final ProductDetailsDataDto? data;
   final String? message;
   final int? statusCode;
 
-  ProductDetailsResponseDto({
+  const ProductDetailsResponseDto({
     this.data,
     this.message,
     this.statusCode,
@@ -32,9 +33,14 @@ class ProductDetailsResponseDto {
         brandLogo: data?.brandImage ?? '',
         brandName: data?.brandName ?? '',
         variations: data?.variations?.map((e) => e.toModel()).toList() ?? [],
-        availableProperties: data?.avaiableProperties
-                ?.map((e) => e.toModel())
-                .toList() ??
-            []);
+        availableProperties:
+            data?.avaiableProperties?.map((e) => e.toModel()).toList() ?? []);
   }
+
+  @override
+  List<Object?> get props => [
+        data,
+        message,
+        statusCode,
+      ];
 }

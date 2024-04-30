@@ -1,8 +1,9 @@
+import 'package:equatable/equatable.dart';
 import 'package:slash/data/datasources/remote/models/available_property.dart';
 import 'package:slash/data/datasources/remote/models/count_dto.dart';
 import 'package:slash/data/datasources/remote/models/product_details_variation_dto.dart';
 
-class ProductDetailsDataDto {
+class ProductDetailsDataDto extends Equatable {
   final int? id;
   final String? name;
   final String? type;
@@ -19,7 +20,7 @@ class ProductDetailsDataDto {
   final String? brandName;
   final String? brandImage;
 
-  ProductDetailsDataDto({
+  const ProductDetailsDataDto({
     this.id,
     this.name,
     this.type,
@@ -55,7 +56,7 @@ class ProductDetailsDataDto {
             : null,
         variations = (json['variations'] as List?)
             ?.map((dynamic e) =>
-            ProductDetailsVariationDto.fromJson(e as Map<String, dynamic>))
+                ProductDetailsVariationDto.fromJson(e as Map<String, dynamic>))
             .toList(),
         avaiableProperties = (json['avaiableProperties'] as List?)
             ?.map((dynamic e) =>
@@ -82,13 +83,33 @@ class ProductDetailsDataDto {
         'brandName': brandName,
         'brandImage': brandImage
       };
+
+  @override
+  // TODO: implement props
+  List<Object?> get props => [
+        id,
+        name,
+        type,
+        description,
+        brandId,
+        bostaSizeId,
+        productRating,
+        estimatedDaysPreparing,
+        count,
+        sizeChart,
+        subCategory,
+        variations,
+        avaiableProperties,
+        brandName,
+        brandImage,
+      ];
 }
 
-class SubCategory {
+class SubCategory extends Equatable {
   final int? id;
   final String? name;
 
-  SubCategory({
+  const SubCategory({
     this.id,
     this.name,
   });
@@ -98,4 +119,10 @@ class SubCategory {
         name = json['name'] as String?;
 
   Map<String, dynamic> toJson() => {'id': id, 'name': name};
+
+  @override
+  List<Object?> get props => [
+        id,
+        name,
+      ];
 }

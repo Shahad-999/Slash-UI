@@ -1,10 +1,11 @@
+import 'package:equatable/equatable.dart';
 import 'package:slash/data/datasources/remote/models/brand_dto.dart';
 import 'package:slash/data/datasources/remote/models/product_sub_catagory_dto.dart';
 import 'package:slash/data/datasources/remote/models/product_varaiation.dart';
 import 'package:slash/domain/models/product.dart';
 import 'package:slash/domain/models/product_variation.dart';
 
-class ProductData {
+class ProductData extends Equatable {
   int? id;
   String? name;
   String? type;
@@ -127,4 +128,25 @@ class ProductData {
         brandId: brandId ?? -1,
         defaultVariation: defaultVariation);
   }
+
+  @override
+  List<Object?> get props => [
+        id,
+        name,
+        type,
+        description,
+        subCategoryId,
+        brandId,
+        bostaSizeId,
+        createdAt,
+        updatedAt,
+        deletedAt,
+        productRating,
+        estimatedDaysPreparing,
+        brands,
+        productVariations,
+        subCategories,
+        notApprovedVariants,
+        SizeChart
+      ];
 }

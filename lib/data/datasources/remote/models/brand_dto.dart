@@ -1,5 +1,6 @@
-class BrandDto {
+import 'package:equatable/equatable.dart';
 
+class BrandDto extends Equatable {
   int? id;
   String? brandType;
   String? brandName;
@@ -101,4 +102,31 @@ class BrandDto {
     data['planId'] = planId;
     return data;
   }
+
+  @override
+  List<Object?> get props => [
+        id,
+        brandType,
+        brandName,
+        brandFacebookPageLink,
+        brandInstagramPageLink,
+        brandWebsiteLink,
+        brandMobileNumber,
+        brandEmailAddress,
+        taxIdNumber,
+        brandDescription,
+        brandLogoImagePath,
+        brandStatusId,
+        brandStoreAddressId,
+        brandCategoryId,
+        deletedAt,
+        createdAt,
+        updatedAt,
+        brandSellerId,
+        brandId,
+        slashContractPath,
+        brandRating,
+        daysLimitToReturn,
+        planId,
+      ];
 }
