@@ -9,5 +9,5 @@ final GetIt getIt = GetIt.instance;
 setup() {
   getIt.registerSingleton(Dio()..interceptors.addAll([LogInterceptor()]));
   getIt.registerSingleton<RemoteDataSource>(RemoteDataSource(getIt.get()));
-  getIt.registerSingleton<ProductsRepository>(ProductRepositoryImp());
+  getIt.registerSingleton<ProductsRepository>(ProductRepositoryImp(getIt.get()));
 }

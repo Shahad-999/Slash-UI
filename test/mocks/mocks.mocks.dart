@@ -5,14 +5,19 @@
 // ignore_for_file: no_leading_underscores_for_library_prefixes
 import 'dart:async' as _i8;
 
+import 'package:dio/dio.dart' as _i7;
 import 'package:dio/src/adapter.dart' as _i3;
 import 'package:dio/src/cancel_token.dart' as _i9;
-import 'package:dio/src/dio.dart' as _i7;
 import 'package:dio/src/dio_mixin.dart' as _i5;
 import 'package:dio/src/options.dart' as _i2;
 import 'package:dio/src/response.dart' as _i6;
 import 'package:dio/src/transformer.dart' as _i4;
 import 'package:mockito/mockito.dart' as _i1;
+import 'package:slash/data/datasources/remote/models/product_data_dto.dart'
+    as _i11;
+import 'package:slash/data/datasources/remote/models/product_details_response_dto.dart'
+    as _i12;
+import 'package:slash/data/datasources/remote/remote_data_source.dart' as _i10;
 
 // ignore_for_file: type=lint
 // ignore_for_file: avoid_redundant_argument_values
@@ -783,4 +788,42 @@ class MockDio extends _i1.Mock implements _i7.Dio {
           ),
         )),
       ) as _i8.Future<_i6.Response<T>>);
+}
+
+/// A class which mocks [RemoteDataSource].
+///
+/// See the documentation for Mockito's code generation for more information.
+class MockRemoteDataSource extends _i1.Mock implements _i10.RemoteDataSource {
+  MockRemoteDataSource() {
+    _i1.throwOnMissingStub(this);
+  }
+
+  @override
+  _i8.Future<List<_i11.ProductData>?> getProducts({
+    required int? page,
+    int? limit,
+  }) =>
+      (super.noSuchMethod(
+        Invocation.method(
+          #getProducts,
+          [],
+          {
+            #page: page,
+            #limit: limit,
+          },
+        ),
+        returnValue: _i8.Future<List<_i11.ProductData>?>.value(),
+      ) as _i8.Future<List<_i11.ProductData>?>);
+
+  @override
+  _i8.Future<_i12.ProductDetailsResponseDto?> getProductDetails(
+          {required int? id}) =>
+      (super.noSuchMethod(
+        Invocation.method(
+          #getProductDetails,
+          [],
+          {#id: id},
+        ),
+        returnValue: _i8.Future<_i12.ProductDetailsResponseDto?>.value(),
+      ) as _i8.Future<_i12.ProductDetailsResponseDto?>);
 }

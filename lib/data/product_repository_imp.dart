@@ -7,14 +7,14 @@ import 'package:slash/utils/error_status.dart';
 import 'package:slash/utils/response.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-final repoProvider = Provider<ProductsRepository>((ref) => ProductRepositoryImp());
+final repoProvider = Provider<ProductsRepository>((ref) => ProductRepositoryImp(getIt.get()));
 
 
 class ProductRepositoryImp extends ProductsRepository {
 
   final RemoteDataSource _remoteDataSource;
 
-  ProductRepositoryImp(): _remoteDataSource =getIt.get();
+  ProductRepositoryImp(this._remoteDataSource);
 
   @override
   Future<Response<List<Product>>> getProducts({required int page})async {
