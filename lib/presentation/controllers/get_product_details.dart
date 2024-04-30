@@ -1,4 +1,3 @@
-import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 import 'package:slash/data/product_repository_imp.dart';
 import 'package:slash/presentation/models/product_details_ui.dart';
@@ -12,19 +11,18 @@ class GetProductDetails extends _$GetProductDetails {
     final repo = ref.read(repoProvider);
     final result = await repo.getProductDetails(id: id);
     final data = result.data;
-    if(data==null){
+    if (data == null) {
       throw Exception();
-    }else{
+    } else {
       return ProductDetailsUi.fromModel(data);
     }
   }
 
-  void selectVariation(int variationId)  {
+  void selectVariation(int variationId) {
     state.whenData((value) {
       state = AsyncData(value.copyWith(
-          currentVariationUi:
-          value.variations.firstWhere((element) => element.id == variationId)));
-
+          currentVariationUi: value.variations
+              .firstWhere((element) => element.id == variationId)));
     });
-   }
+  }
 }
