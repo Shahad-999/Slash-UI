@@ -1,7 +1,11 @@
 import 'package:dio/dio.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:slash/data/datasources/remote/models/product_data_dto.dart';
 import 'package:slash/data/datasources/remote/models/product_details_response_dto.dart';
 import 'package:slash/data/datasources/remote/models/products_response_dto.dart';
+
+final dioProvider = Provider<Dio>((ref) => Dio());
+final remoteDataSourceProvider = Provider<RemoteDataSource>((ref) => RemoteDataSource( ref.read(dioProvider)));
 
 class RemoteDataSource {
   final Dio _dio;

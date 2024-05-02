@@ -1,11 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:slash/config/routes.dart';
-import 'package:slash/config/service_locator.dart';
 import 'package:slash/config/theme.dart';
 
 void main() {
-  setup();
   runApp(const MyApp());
 }
 

@@ -18,9 +18,6 @@ dependencies:
   retrofit: ^4.0.3
   http_parser: ^4.0.2
 
-  #dependancy injection
-  get_it: ^7.6.7
-
   #state management
 
   #navigation

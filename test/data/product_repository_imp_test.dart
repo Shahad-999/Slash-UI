@@ -2,7 +2,6 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:mockito/mockito.dart';
 import 'package:slash/data/datasources/remote/models/brand_dto.dart';
 import 'package:slash/data/datasources/remote/models/product_data_dto.dart';
-import 'package:slash/data/datasources/remote/models/product_details_data_dto.dart';
 import 'package:slash/data/datasources/remote/models/product_images_dto.dart';
 import 'package:slash/data/datasources/remote/models/product_sub_catagory_dto.dart';
 import 'package:slash/data/datasources/remote/models/product_varaiation.dart';

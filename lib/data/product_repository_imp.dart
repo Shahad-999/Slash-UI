@@ -1,4 +1,3 @@
-import 'package:slash/config/service_locator.dart';
 import 'package:slash/data/datasources/remote/remote_data_source.dart';
 import 'package:slash/domain/models/product.dart';
 import 'package:slash/domain/models/product_details.dart';
@@ -7,7 +6,7 @@ import 'package:slash/utils/error_status.dart';
 import 'package:slash/utils/response.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-final repoProvider = Provider<ProductsRepository>((ref) => ProductRepositoryImp(getIt.get()));
+final repoProvider = Provider<ProductsRepository>((ref) => ProductRepositoryImp(ref.read(remoteDataSourceProvider)));
 
 
 class ProductRepositoryImp extends ProductsRepository {
